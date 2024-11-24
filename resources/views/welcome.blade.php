@@ -25,7 +25,7 @@
                     </div>
                     <div class="hidden md:flex md:items-center md:justify-center md:gap-5">
                         <a class="inline-block rounded-lg px-2 py-1 text-sm font-medium text-[#fefeff] transition-all duration-200 hover:bg-gray-100 hover:text-gray-900" href="#features">Features</a>
-                        <a class="inline-block rounded-lg px-2 py-1 text-sm font-medium text-[#fefeff] transition-all duration-200 hover:bg-gray-100 hover:text-gray-900" href="#how-it-works">How It Works</a>
+                        <a class="inline-block rounded-lg px-2 py-1 text-sm font-medium text-[#fefeff] transition-all duration-200 hover:bg-gray-100 hover:text-gray-900" href="#about">Review</a>
                         <a class="inline-block rounded-lg px-2 py-1 text-sm font-medium text-[#fefeff] transition-all duration-200 hover:bg-gray-100 hover:text-gray-900" href="#pricing">Pricing</a>
                         <a class="inline-block rounded-lg px-2 py-1 text-sm font-medium text-[#fefeff] transition-all duration-200 hover:bg-gray-100 hover:text-gray-900" href="#contact">Contact</a>
                     </div>
@@ -55,7 +55,7 @@
                         <div class="flex  mt-6  mb-2 space-x-4">
                           
                             
-                            <a href="{{ route('register') }}" class="  flex justify-center gap-2 items-center mx-auto shadow-xl text-lg  backdrop-blur-md lg:font-semibold isolation-auto  before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-black     bg-gradient-to-br from-[#040004] via-[#020cb9] to-[#010004]  hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10  py-2 overflow-hidden border-[#6e36f2]  group  g border-2  px-9 -[#010004] rounded-full text-white ring-1 ring-transparent transition  focus:outline-none">
+                            <a href="{{ route('register') }}" class="  flex justify-center gap-2 items-center mx-auto shadow-xl text-lg  backdrop-blur-md lg:font-semibold isolation-auto  before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-black     bg-gradient-to-br from-[#040004] via-[#020cb9] to-[#010004]  hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10  py-2 overflow-hidden border-[#020cb9]  group  g border-2  px-9 -[#010004] rounded-full text-white ring-1 ring-transparent transition  focus:outline-none">
                                 Get started
                                 <svg
                                   class="w-8 h-8 group-hover:rotate-90 group-hover:bg-black text-gray-50 ease-linear duration-300 rounded-full border border-gray-700 group-hover:border-none p-2 rotate-45"
@@ -91,7 +91,7 @@
                 
                 </h1>
                 <div class="flex   mt-6 mb-2 space-x-4">
-                    <a href="{{ route('register') }}" class="border-2 p-2 px-9 bg-gradient-to-br from-[#010004] via-[#020cb9] to-[#010004] rounded-full text-white ring-1 ring-transparent transition  hover:text-white focus:outline-none">
+                    <a href="{{ route('register') }}" class="  flex justify-center gap-2 items-center mx-auto shadow-xl text-lg  backdrop-blur-md lg:font-semibold isolation-auto  before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-black     bg-gradient-to-br from-[#040004] via-[#020cb9] to-[#010004]  hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10  py-2 overflow-hidden border-[#020cb9]  group  g border-2  px-9 -[#010004] rounded-full text-white ring-1 ring-transparent transition  focus:outline-none">
                         Get started
                     </a>
                 </div>
@@ -285,7 +285,7 @@
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-primary mb-4 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                             <path class="text-[#5843d0]" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
                         </svg>
-                        <h3 class="text-xl font-bold mb-4">Task Management Made Easy</h3>
+                        <h3 class="text-xl font-bold mb-4">Task  Made Easy</h3>
                         <p class="text-gray-400 font-light">Create, update, and assign tasks effortlessly.</p>
                     </div>
                     <!-- Feature 2 -->
@@ -324,7 +324,7 @@
              
              
                 <!-- Calendar Section -->
-              <div class="bg-black p-8  rounded-xl shadow-lg w-full max-w-md">
+              <div id="about" class="bg-black p-8  rounded-xl shadow-lg w-full max-w-md">
                 <div class="flex justify-between  border rounded-full items-center mb-6">
                   <button class="text-gray-400 hover:text-white p-2 rounded-full bg-white border border-[#020cb9]">
                     <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">

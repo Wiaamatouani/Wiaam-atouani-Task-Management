@@ -114,9 +114,7 @@
                     </a>
                 </li>
             </ul>
-        </div>
-               
-            
+        </div> 
         <main class="flex-1 p-6">
             <!-- Header -->
             <header class="flex justify-between items-center mb-8">
@@ -445,22 +443,6 @@
         </div>
     </div>
 </div>        
-            
-              
-
-            <!-- Team Members -->
-            {{-- <div class="flex items-center mb-4">
-                <div class="flex -space-x-2">
-                    @foreach ($team->members as $member)
-                        <img src="{{ asset('storage/images/' . $member->image) }}" alt="{{ $member->name }}"
-                            title="{{ $member->name }}"
-                            class="w-8 h-8 rounded-full border-2 border-white" />
-                    @endforeach
-                </div>
-                <span class="text-sm text-gray-500 ml-2">
-                    +{{ $team->members->count() }} members
-                </span>
-            </div> --}}
             <div class="mt-8">
                 <!-- Team Members Section -->
                 <div class="flex items-center gap-2 mb-4">
@@ -470,7 +452,7 @@
                     </div>
                     <!-- Team Info -->
                     <div>
-                        <p class="text-sm font-medium">Team Members</p>
+                        <p class="text-sm font-medium">Lion geek</p>
                         <p class="text-xs text-gray-500">10+ members</p>
                     </div>
                 </div>
@@ -479,15 +461,15 @@
                 <div class="flex -space-x-2">
                     <!-- Dynamically generated avatars -->
                     <div class="h-8 w-8 rounded-full bg-gray-300 border-2 border-white flex items-center justify-center overflow-hidden">
-                        <img src="/placeholder.svg?0" alt="User 0" class="h-full w-full object-cover" />
+                        <img src="{{ asset('images/m1.png') }}" alt="User 0" class="h-full w-full object-cover" />
                     </div>
                     <div class="h-8 w-8 rounded-full bg-gray-300 border-2 border-white flex items-center justify-center overflow-hidden">
-                        <img src="/placeholder.svg?1" alt="User 1" class="h-full w-full object-cover" />
+                        <img src="{{ asset('images/m5.png') }}" alt="User 1" class="h-full w-full object-cover" />
                     </div>
                     <div class="h-8 w-8 rounded-full bg-gray-300 border-2 border-white flex items-center justify-center overflow-hidden">
-                        <img src="/placeholder.svg?2" alt="User 2" class="h-full w-full object-cover" />
+                        <img src="{{ asset('images/m4.png') }}" alt="User 2" class="h-full w-full object-cover" />
                     </div>
-                    
+                  
                 </div>
             </div>
             

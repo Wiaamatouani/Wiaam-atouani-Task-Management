@@ -57,16 +57,25 @@ class TaskController extends Controller
    
     public function store(Request $request)
     {
+        // dd($request->all());
+
         $request->validate([
-            'title' => 'required|string|max:255',
+            'name' => 'required|string|max:255',
+            'description' => 'nullable|string',
             'start' => 'required|date',
-            'end' => 'required|date',
+            'end' => 'required|date|after:start',
+            // 'priority' => 'required|in:High,Medium,Low',
         ]);
 
-        Task::create(['title' => $request->title,
-        'start' => $request->start,
-        'end' => $request->end,]);
-
+        Task::create([
+            'name' => $request->name,
+            'start' => $request->start,
+            'end' => $request->end,
+            // 'priority' => $request->priority, // Ensure priority is set
+            'created_at' => now(),
+            'updated_at' => now(),
+        ]);
+       
         return redirect()->route('Task')->with('success', 'Task created successfully!');
     }
 

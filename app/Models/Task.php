@@ -15,10 +15,10 @@ protected $fillable = [
     'description',
     'start',
     'end',
-    'priority',
+    // 'priority',
     'status',
     'creator_id',
-    'assigned_to',
+  
     'team_id'
 ];
 

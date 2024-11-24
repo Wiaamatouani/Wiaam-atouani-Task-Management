@@ -1,6 +1,5 @@
 
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -113,143 +112,279 @@
                     placeholder="Start searching here..."
                     class="pl-8 w-[300px] rounded-2xl"
                   />
-                    <img src="https://via.placeholder.com/32" class="w-9 h-9 rounded-full" alt="Profile">
+                    <img src="{{ asset('images/Capture d’écran (146).png') }}" class="w-9 h-9 rounded-full" alt="Profile">
                 </div>
             </header>
             <!-- Content Grid -->
            
-    <a href="#" class="border-2 border-[#e278aa] p-3 px-8 bg-gradient-to-br from-[#010004] via-[#e278aa] to-[#010004] rounded-3xl text-white ring-1 ring-transparent transition 
-     hover:text-white focus:outline-none" onclick="document.getElementById('taskModal').classList.remove('hidden')">
-       Create a Task
-    </a>
-    <div 
-    id="taskModal" 
-    class="fixed inset-0 bg-black bg-opacity-50  items-center justify-center hidden">
-    <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg w-full max-w-md">
-        <h2 class="text-lg font-bold text-gray-800 dark:text-gray-200 mb-4">Create a Task</h2>
+            {{-- <main class="flex-1 flex  flex-col  bg-black ">
 
-        <!-- Add Task Form -->
-        <form method="POST" action="{{ route('Task.store') }}">
-            @csrf
-            <div class="mb-4">
-                <label for="title" class="block text-sm text-gray-600 dark:text-gray-300 mb-2">Task Title</label>
-                <input 
-                    type="text" 
-                    id="title" 
-                    name="title" 
-                    class="w-full p-2 border border-gray-300 rounded-md focus:ring focus:ring-blue-200"
-                    required>
-                    <div class="mb-4">
-                        <label for="start" class="block text-gray-300 text-sm font-medium mb-1">Task Deadline</label>
-                        <input type="datetime-local" id="start" name="start"
-                        class="block w-full px-4 py-2 text-sm text-gray-100 bg-[#2a2a2a] border border-[#555] rounded-md focus:ring-[#6737f5] focus:border-[#6737f5] transition duration-300"
-                            min="{{ date('Y-m-d\TH:i') }}" required>
+<div>
+
+    <a href="#" class="border-2 border-[#02098c] p-3 px-8 bg-gradient-to-br from-[#010004] via-[#02098c] to-[#010004] rounded-xl text-white ring-1 ring-transparent transition 
+    hover:text-white focus:outline-none" onclick="document.getElementById('taskModal').classList.remove('hidden')">
+    + Create a Task
+    </a>
+</div>
+               
+                    <div  id="taskModal" 
+                    class="fixed inset-0 bg-black bg-opacity-50  items-center justify-center hidden">
+                    <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg w-full max-w-md">
+                        <h2 class="text-lg font-bold text-gray-800 dark:text-gray-200 mb-4">Create a Task</h2>
+                
+                        <!-- Add Task Form -->
+                        <form method="POST" action="{{ route('Task.store') }}">
+                            @csrf
+                            <div class="mb-4">
+                                <label for="title" class="block text-sm text-gray-600 dark:text-gray-300 mb-2">Task Title</label>
+                                <input 
+                                    type="text" 
+                                    id="title" 
+                                    name="title" 
+                                    class="w-full p-2 border border-gray-300 rounded-md focus:ring focus:ring-blue-200"
+                                    required>
+                                    <div class="mb-4">
+                                        <label for="start" class="block text-gray-300 text-sm font-medium mb-1">Task Deadline</label>
+                                        <input type="datetime-local" id="start" name="start"
+                                        class="block w-full px-4 py-2 text-sm text-gray-100 bg-[#2a2a2a] border border-[#555] rounded-md focus:ring-[#6737f5] focus:border-[#6737f5] transition duration-300"
+                                            min="{{ date('Y-m-d\TH:i') }}" required>
+                                    </div>
+                                    <div class="mb-4">
+                                        <label for="end" class="block text-gray-300 text-sm font-medium mb-1">Task Deadline</label>
+                                        <input type="datetime-local" id="end" name="end"
+                                        class="block w-full px-4 py-2 text-sm text-gray-100 bg-[#2a2a2a] border border-[#555] rounded-md focus:ring-[#6737f5] focus:border-[#6737f5] transition duration-300"
+                                            min="{{ date('Y-m-d\TH:i') }}" required>
+                                    </div>
+                                    <input type="text" name="name" id="name" required>
+                                @error('title')
+                                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                                @enderror
+                            </div>
+                            <div class="flex items-center justify-end space-x-2">
+                                <button 
+                                    type="button" 
+                                    class="bg-gray-400 text-white px-4 py-2 rounded-md hover:bg-gray-500"
+                                    onclick="document.getElementById('taskModal').classList.add('hidden')">
+                                    Cancel
+                                </button>
+                                <button 
+                                    type="submit" 
+                                    class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
+                                    Save
+                                </button>
+                            </div>
+                        </form>
                     </div>
-                    <div class="mb-4">
-                        <label for="end" class="block text-gray-300 text-sm font-medium mb-1">Task Deadline</label>
-                        <input type="datetime-local" id="end" name="end"
-                        class="block w-full px-4 py-2 text-sm text-gray-100 bg-[#2a2a2a] border border-[#555] rounded-md focus:ring-[#6737f5] focus:border-[#6737f5] transition duration-300"
-                            min="{{ date('Y-m-d\TH:i') }}" required>
+                </div>
+                <div class="py-12">
+                <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+                
+                    <form class="hidden" method="post" class="" action="{{ route('calendar.store') }}">
+                        @csrf
+                        <input type="text" name="name" id="name" required>
+                        <input name="start" id="start" type="datetime-local">
+                        <input name="end" id="end" type="datetime-local">
+                        <button id="submitEvent">submit</button>
+                    </form>
+                
+                    <div class="">
+                        <form class="hidden" id="updateForm" method="post" action="">
+                            @csrf @method('PUT')
+                            <input id="updatedStart" name="start" type="hidden">
+                            <input id="updatedEnd" name="end" type="hidden">
+                            <button id="submitUpdate"></button>
+                        </form>
                     </div>
+                
                    
-                @error('title')
+                    <div class="container pt-[15vh] mx-auto px-[4vw]">
+                
+                
+                     
+                
+                
+                </div>
+                
+                </main>
+                <script>
+                    // Close modal when clicking outside
+                    window.addEventListener('click', function(e) {
+                    const modal = document.getElementById('taskModal');
+                    if (e.target === modal) {
+                    modal.classList.add('hidden');
+                    }
+                    });
+                    </script> 
+                    </div>
+                </div>
+            </div>--}} 
+            <div class=" ">
+                <!-- Button to open the modal -->
+                <button
+                    class="border-2 border-[#02098c]  bg-gradient-to-br from-[#010004] via-[#02098c] to-[#010004]   font-bold   text-white px-3 py-2 rounded-md text-sm hover:bg-gray-600 transition"
+                    onclick="document.getElementById('taskModal').classList.remove('hidden')">
+                    + Create a Task
+                </button>
+            
+                <!-- Modal -->
+                <div id="taskModal" class="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center hidden">
+                    <div class="bg-white dark:bg-gray-700 p-6 rounded-lg shadow-lg w-full max-w-md">
+                        <h2 class="text-lg font-bold text-gray-800 dark:text-gray-200 mb-4">Create a Task</h2>
+            
+                        <!-- Add Task Form -->
+                        <form method="POST" action="{{ route('Task.store') }}">
+                            @csrf
+            
+                            <!-- Task Name -->
+                            <div class="mb-4">
+                                <label for="name" class="block text-sm font-medium text-gray-700">Task Name</label>
+                                <input type="text" id="name" name="name" required
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring focus:ring-blue-200">
+                                @error('name')
+                                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                                @enderror
+                            </div>
+             <!-- Task Name -->
+             <div class="mb-4 ">
+                <label for="description" class="block text-sm font-medium text-gray-700">Task Description</label>
+                <input type="description" id="description" name="description" required
+                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring focus:ring-blue-200">
+                @error('description')
                     <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
                 @enderror
             </div>
-            <div class="flex items-center justify-end space-x-2">
-                <button 
-                    type="button" 
-                    class="bg-gray-400 text-white px-4 py-2 rounded-md hover:bg-gray-500"
-                    onclick="document.getElementById('taskModal').classList.add('hidden')">
-                    Cancel
-                </button>
-                <button 
-                    type="submit" 
-                    class="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600">
-                    Save
-                </button>
-            </div>
-        </form>
-    </div>
-
-      <!-- show-task -->
-      <div class="flex items-center p-12 bg-white/10 border-2 border-[#db74a5] rounded-3xl shadow-md">
-         <div class="container mx-auto">
-             <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                 @if (isset($tasks) && $tasks->count())
-                     @foreach ($tasks as $task)
-                         <!-- Task Card -->
-                         <div class="bg-gray-200 dark:bg-gray-600 p-6 rounded-lg shadow-lg text-gray-800 dark:text-gray-100 flex flex-col justify-between">
-                             <div class="relative">
-                                 <!-- Menu toggle button -->
-                                 <button class="peer relative z-10 block p-2 transition-colors duration-300 transform rounded-lg focus:outline-none ">
-                                   <svg class="w-6 h-6 text-black rotate-90" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
-                                   </svg>
-                                 </button>
-                               
-                                 <!-- Menu list -->
-                                 <div
-                                   class="hidden peer-focus:block absolute right-0 z-20 w-48 mt-2 overflow-hidden bg-white rounded-lg shadow-xl dark:bg-gray-800 border">
-                                   <a  href="{{ route('Task.update', $task->id) }}"
-                                     class="block px-4 py-2 text-sm text-gray-800 transition-colors duration-300 transform border-b dark:text-gray-200 dark:border-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700">
-                                    
-                                 Update
-                                 
-                                 
-                                 </a>
-                                  
-                                   <form action="{{ route('Task.destroy', $task->id) }}" method="POST" style="display:inline;">
-                                     @csrf
-                                     @method('DELETE')
-                                     <button type="submit" class=" text-white px-4 py-2 rounded-md hover:bg-red-600" onclick="return confirm('Are you sure you want to delete this task?')">
-                                         Delete
-                                     </button>
-                                 </form>
-                                  
-                                   <a href="{{ route('Team', $task->id) }}"
-                                     class="block px-4 py-2 text-sm text-gray-800 transition-colors duration-300 transform dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">
-                             Share</a>
-                                 </div>
-                               </div>
-                            
-                            
-                             <!-- Task Title -->
-                             <h3 class="text-lg font-semibold mb-4">{{ $task->id }}: {{ $task->title }}</h3>
-                           
-                             <!-- Action Buttons -->
-                             <div class="flex flex-wrap space-x-2">
-                                 <!-- Update Button -->
-                                 <a href="{{ route('Task.update', $task->id) }}" class=" text-white px-4 py-2 rounded-md hover:bg-blue-600">
-                                     Update
-                                 </a>
-     
-                                 <!-- Delete Button -->
-                                 <form action="{{ route('Task.destroy', $task->id) }}" method="POST" style="display:inline;">
-                                     @csrf
-                                     @method('DELETE')
-                                     <button type="submit" class=" text-white px-4 py-2 rounded-md hover:bg-red-600" onclick="return confirm('Are you sure you want to delete this task?')">
-                                         Delete
-                                     </button>
-                                 </form>
-     
-                                 <!-- Share Button -->
-                                 <a href="{{ route('Team', $task->id) }}" class=" text-white px-4 py-2 rounded-md hover:bg-green-600">
-                                     Share
-                                 </a>
-                             </div>
-                         </div>
-                     @endforeach
-                 @else
-                     <p class="text-gray-500 col-span-4 text-center">No tasks available.</p>
-                 @endif
-             </div>
-         </div>
-     </div>              
+                            <!-- Start Date -->
+                            <div class="mb-4">
+                                <label for="start" class="block text-sm font-medium text-gray-700">Start Date</label>
+                                <input type="datetime-local" id="start" name="start" required
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring focus:ring-blue-200">
+                                @error('start')
+                                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                                @enderror
+                            </div>
+            
+                            <!-- End Date -->
+                            <div class="mb-4">
+                                <label for="end" class="block text-sm font-medium text-gray-700">End Date</label>
+                                <input type="datetime-local" id="end" name="end" required
+                                    class="w-full px-4 py-2 border border-gray-300 rounded-md focus:ring focus:ring-blue-200">
+                                @error('end')
+                                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                                @enderror
+                            </div>
+                            <!-- Buttons -->
+                            <div class="flex justify-end space-x-4">
+                                <button type="button" onclick="document.getElementById('taskModal').classList.add('hidden')"
+                                    class="text-gray-900 bg-gray-200 hover:bg-gray-300 px-5 py-2 rounded-lg shadow transition">
+                                    Cancel
+                                </button>
+                                <button type="submit"
+                                    class="px-5 py-2 bg-blue-500 text-white font-bold rounded-lg shadow hover:bg-blue-600 transition">
+                                    Create Task
+                                </button>
+                            </div>
+                        </form>
                     </div>
                 </div>
-            </div> 
-        </main>
+            </div>
+               <!-- show-task -->
+        <div class="flex items-center  rounded-3xl shadow-md">
+            <div class="container mx-auto">
+                <div class="grid grid-cols-1  pt-6 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    @if (isset($tasks) && $tasks->count())
+                        @foreach ($tasks as $task)
+                            <!-- Task Card -->
+                            <div class="  bg-[#02098c]/30 border hover:bg-[#02098c] border-white p-6 rounded-lg shadow-lg text-gray-100 flex flex-col justify-between">
+                                <div class="relative">
+                                   
+                                
+                                    <!-- Menu list -->
+                                   
+                                </div>
+                               
+                                <!-- Task Title -->
+                                <div class="flex items-center justify-between flex-row">
+                                    <h3 class="text-lg font-semibold mb-4">{{ $task->name }}</h3>
+                                    {{-- <button class="peer relative z-10 block p-2 transition-colors duration-300 transform rounded-lg focus:outline-none ">
+                                        <svg class="w-6 h-6 text-black rotate-90" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
+                                        </svg>
+                                    </button> --}}
+                                    <div class="relative">
+                                        <!-- Menu toggle button -->
+                                        <button class="peer relative z-10 block p-2 transition-colors duration-300 transform rounded-lg focus:outline-none ">
+                                          <svg class="w-6 h-6 text-blue-500 rotate-90" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 12h.01M12 12h.01M19 12h.01M6 12a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0zm7 0a1 1 0 11-2 0 1 1 0 012 0z" />
+                                          </svg>
+                                        </button>
+                                      
+                                        <!-- Menu list -->
+                                        <div
+                                          class="hidden peer-focus:block absolute right-0 z-20 w-48 mt-2 overflow-hidden bg-white rounded-lg shadow-xl dark:bg-gray-800 border">
+                                          <a href="{{ route('Task.update', $task->id) }}"
+                                            class="block px-4 py-2 text-sm text-gray-800 transition-colors duration-300 transform border-b dark:text-gray-200 dark:border-gray-500 hover:bg-gray-100 dark:hover:bg-gray-700">Edit
+                                          </a>
+                                          <form action="{{ route('Task.destroy', $task->id) }}" method="POST" style="display:inline;">
+                                            @csrf
+                                            @method('DELETE')
+                                            
+                                           <button type="submit" class=" block px-4 py-2 text-sm text-gray-800 transition-colors duration-300 transform border-b" onclick="return confirm('Are you sure you want to delete this task?')">
+                                            Delete
+                                        </button>
+                                          </form>
+                                         
+                                          <a href="{{ route('Team', $task->id) }}" 
+                                            class="block px-4 py-2 text-sm text-gray-800 transition-colors duration-300 transform dark:text-gray-200 hover:bg-gray-100 dark:hover:bg-gray-700">Share
+                                        </a>
+                                        </div>
+                                      </div>
+                                </div>
+                               
+        
+                                <!-- Task Description -->
+                                <p class="mb-4">{{ $task->description }}</p>
+        
+                                <!-- Task Priority -->
+                                
+                                <!-- Task Dates -->
+                                <p class="mb-4">
+                                    <strong>Start Date:</strong> {{ \Carbon\Carbon::parse($task->start)->format('M d, Y H:i') }}
+                                </p>
+                                <p class="mb-4">
+                                    <strong>End Date:</strong> {{ \Carbon\Carbon::parse($task->end)->format('M d, Y H:i') }}
+                                </p>
+        
+                                <!-- Action Buttons -->
+                                <div class="flex flex-wrap space-x-2">
+                                    <!-- Update Button -->
+                                    <a href="{{ route('Task.update', $task->id) }}" class="text-white px-4 py-2 rounded-md hover:bg-blue-600">
+                                        Update
+                                    </a>
+                                    <!-- Delete Button -->
+                                    <form action="{{ route('Task.destroy', $task->id) }}" method="POST" style="display:inline;">
+                                        @csrf
+                                        @method('DELETE')
+                                        <button type="submit" class="text-white px-4 py-2 rounded-md hover:bg-red-600" onclick="return confirm('Are you sure you want to delete this task?')">
+                                            Delete
+                                        </button>
+                                    </form>
+                                    <!-- Share Button -->
+                                    <a href="{{ route('Team', $task->id) }}" class="text-white px-4 py-2 rounded-md hover:bg-green-600">
+                                        Share
+                                    </a>
+                                </div>
+
+                                
+                            </div>
+                        @endforeach
+                    @else
+                        <p class="text-gray-500 col-span-4 text-center">No tasks available.</p>
+                    @endif
+                </div>
+            </div>
+        </div>
+        
+        </main> 
     </div>
 </body>
 
@@ -257,13 +392,7 @@
 
 
 
-                   
-                   
-   
-     
-    
-     
- 
+
 
 
 
