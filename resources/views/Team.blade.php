@@ -76,41 +76,41 @@
                     </a>
                 </li> --}}
 
-                <li class="  mt-72">
+                <li class="  mt-70">
                     <a href="#" class="hidden   sm:flex sm:items-center sm:ms-6 flex-row items-center  ml-4   transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-300 hover:text-white">
+                         
                            <x-dropdown align="right" width="">
-                               <x-slot name="trigger">
-                                   <button class="inline-flex items-center   border border-transparent text-sm  font-medium rounded-md text-white dark:text-gray-400 dark:bg-gray-800 hover:text-gray-700 dark:hover:text-gray-300 focus:outline-none transition ease-in-out duration-150">
+                            <x-slot name="trigger">
+                                <button class="inline-flex items-center   border border-transparent text-sm  font-medium rounded-md text-white dark:text-gray-400 dark:bg-gray-800 hover:text-gray-700 dark:hover:text-gray-300 focus:outline-none transition ease-in-out duration-150">
+     
+                                    <div class="">
+                                     <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="12" cy="12" r="3" stroke="#ffffff" stroke-width="1.5"></circle> <path d="M3.66122 10.6392C4.13377 10.9361 4.43782 11.4419 4.43782 11.9999C4.43781 12.558 4.13376 13.0638 3.66122 13.3607C3.33966 13.5627 3.13248 13.7242 2.98508 13.9163C2.66217 14.3372 2.51966 14.869 2.5889 15.3949C2.64082 15.7893 2.87379 16.1928 3.33973 16.9999C3.80568 17.8069 4.03865 18.2104 4.35426 18.4526C4.77508 18.7755 5.30694 18.918 5.83284 18.8488C6.07287 18.8172 6.31628 18.7185 6.65196 18.5411C7.14544 18.2803 7.73558 18.2699 8.21895 18.549C8.70227 18.8281 8.98827 19.3443 9.00912 19.902C9.02332 20.2815 9.05958 20.5417 9.15224 20.7654C9.35523 21.2554 9.74458 21.6448 10.2346 21.8478C10.6022 22 11.0681 22 12 22C12.9319 22 13.3978 22 13.7654 21.8478C14.2554 21.6448 14.6448 21.2554 14.8478 20.7654C14.9404 20.5417 14.9767 20.2815 14.9909 19.9021C15.0117 19.3443 15.2977 18.8281 15.7811 18.549C16.2644 18.27 16.8545 18.2804 17.3479 18.5412C17.6837 18.7186 17.9271 18.8173 18.1671 18.8489C18.693 18.9182 19.2249 18.7756 19.6457 18.4527C19.9613 18.2106 20.1943 17.807 20.6603 17C20.8677 16.6407 21.029 16.3614 21.1486 16.1272M20.3387 13.3608C19.8662 13.0639 19.5622 12.5581 19.5621 12.0001C19.5621 11.442 19.8662 10.9361 20.3387 10.6392C20.6603 10.4372 20.8674 10.2757 21.0148 10.0836C21.3377 9.66278 21.4802 9.13092 21.411 8.60502C21.3591 8.2106 21.1261 7.80708 20.6601 7.00005C20.1942 6.19301 19.9612 5.7895 19.6456 5.54732C19.2248 5.22441 18.6929 5.0819 18.167 5.15113C17.927 5.18274 17.6836 5.2814 17.3479 5.45883C16.8544 5.71964 16.2643 5.73004 15.781 5.45096C15.2977 5.1719 15.0117 4.6557 14.9909 4.09803C14.9767 3.71852 14.9404 3.45835 14.8478 3.23463C14.6448 2.74458 14.2554 2.35523 13.7654 2.15224C13.3978 2 12.9319 2 12 2C11.0681 2 10.6022 2 10.2346 2.15224C9.74458 2.35523 9.35523 2.74458 9.15224 3.23463C9.05958 3.45833 9.02332 3.71848 9.00912 4.09794C8.98826 4.65566 8.70225 5.17191 8.21891 5.45096C7.73557 5.73002 7.14548 5.71959 6.65205 5.4588C6.31633 5.28136 6.0729 5.18269 5.83285 5.15108C5.30695 5.08185 4.77509 5.22436 4.35427 5.54727C4.03866 5.78945 3.80569 6.19297 3.33974 7C3.13231 7.35929 2.97105 7.63859 2.85138 7.87273" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
+                                    </div>
+                                    {{-- <div class="text-l  ml-2 font-medium"">Setting</div> --}}
+
+                                </button>
+                              
+                            </x-slot>
+
+                            <x-slot name="content">
+                                {{-- <x-dropdown-link :href="route('profile.edit')">
+                                    {{ __('Profile') }}
+                                </x-dropdown-link> --}}
         
-                                       <div class="">
-                                        <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="12" cy="12" r="3" stroke="#ffffff" stroke-width="1.5"></circle> <path d="M3.66122 10.6392C4.13377 10.9361 4.43782 11.4419 4.43782 11.9999C4.43781 12.558 4.13376 13.0638 3.66122 13.3607C3.33966 13.5627 3.13248 13.7242 2.98508 13.9163C2.66217 14.3372 2.51966 14.869 2.5889 15.3949C2.64082 15.7893 2.87379 16.1928 3.33973 16.9999C3.80568 17.8069 4.03865 18.2104 4.35426 18.4526C4.77508 18.7755 5.30694 18.918 5.83284 18.8488C6.07287 18.8172 6.31628 18.7185 6.65196 18.5411C7.14544 18.2803 7.73558 18.2699 8.21895 18.549C8.70227 18.8281 8.98827 19.3443 9.00912 19.902C9.02332 20.2815 9.05958 20.5417 9.15224 20.7654C9.35523 21.2554 9.74458 21.6448 10.2346 21.8478C10.6022 22 11.0681 22 12 22C12.9319 22 13.3978 22 13.7654 21.8478C14.2554 21.6448 14.6448 21.2554 14.8478 20.7654C14.9404 20.5417 14.9767 20.2815 14.9909 19.9021C15.0117 19.3443 15.2977 18.8281 15.7811 18.549C16.2644 18.27 16.8545 18.2804 17.3479 18.5412C17.6837 18.7186 17.9271 18.8173 18.1671 18.8489C18.693 18.9182 19.2249 18.7756 19.6457 18.4527C19.9613 18.2106 20.1943 17.807 20.6603 17C20.8677 16.6407 21.029 16.3614 21.1486 16.1272M20.3387 13.3608C19.8662 13.0639 19.5622 12.5581 19.5621 12.0001C19.5621 11.442 19.8662 10.9361 20.3387 10.6392C20.6603 10.4372 20.8674 10.2757 21.0148 10.0836C21.3377 9.66278 21.4802 9.13092 21.411 8.60502C21.3591 8.2106 21.1261 7.80708 20.6601 7.00005C20.1942 6.19301 19.9612 5.7895 19.6456 5.54732C19.2248 5.22441 18.6929 5.0819 18.167 5.15113C17.927 5.18274 17.6836 5.2814 17.3479 5.45883C16.8544 5.71964 16.2643 5.73004 15.781 5.45096C15.2977 5.1719 15.0117 4.6557 14.9909 4.09803C14.9767 3.71852 14.9404 3.45835 14.8478 3.23463C14.6448 2.74458 14.2554 2.35523 13.7654 2.15224C13.3978 2 12.9319 2 12 2C11.0681 2 10.6022 2 10.2346 2.15224C9.74458 2.35523 9.35523 2.74458 9.15224 3.23463C9.05958 3.45833 9.02332 3.71848 9.00912 4.09794C8.98826 4.65566 8.70225 5.17191 8.21891 5.45096C7.73557 5.73002 7.14548 5.71959 6.65205 5.4588C6.31633 5.28136 6.0729 5.18269 5.83285 5.15108C5.30695 5.08185 4.77509 5.22436 4.35427 5.54727C4.03866 5.78945 3.80569 6.19297 3.33974 7C3.13231 7.35929 2.97105 7.63859 2.85138 7.87273" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
-                                       </div>
-                                       {{-- <div class="text-l  ml-2 font-medium"">Setting</div> --}}
+                                <!-- Authentication -->
+                                <form method="POST" action="{{ route('logout') }}">
+                                    @csrf
+        
+                                    <x-dropdown-link :href="route('logout')"
+                                            onclick="event.preventDefault();
+                                                        this.closest('form').submit();">
+                                        {{ __('Log Out') }}
+                                    </x-dropdown-link>
+                                </form>
+                            </x-slot>
 
-                                   </button>
-                                 
-                               </x-slot>
 
-                               <x-slot name="content">
-                                   <x-dropdown-link :href="route('profile.edit')">
-                                       {{ __('Profile') }}
-                                   </x-dropdown-link>
-           
-                                   <!-- Authentication -->
-                                   <form method="POST" action="{{ route('logout') }}">
-                                       @csrf
-           
-                                       <x-dropdown-link :href="route('logout')"
-                                               onclick="event.preventDefault();
-                                                           this.closest('form').submit();">
-                                           {{ __('Log Out') }}
-                                       </x-dropdown-link>
-                                   </form>
-                               </x-slot>
-   
-   
-                           </x-dropdown>
-                    
+                        </x-dropdown>
                     </a>
                 </li>
             </ul>
@@ -118,16 +118,32 @@
         <main class="flex-1 p-6">
             <!-- Header -->
             <header class="flex justify-between items-center mb-8">
-<div>             
-       <h1 class="text-2xl text-white font-bold">Start Your Day</h1>
-<p class="text-muted-foreground text-white">& Be Productive 👋</p></div>
+                <div>             
+                    <h1 class="text-2xl text-white font-bold"> Hello {{ Auth::user()->name }} 👋</h1>
+             <p class="text-muted-foreground text-white"> Start Your Day & Be Productive </p></div>
                 <div class="flex items-center space-x-4">
                     <Input
                     type="search"
                     placeholder="Start searching here..."
                     class="pl-8 w-[300px] rounded-2xl"
                   />
-                    <img src="https://via.placeholder.com/32" class="w-9 h-9 rounded-full" alt="Profile">
+                  <x-dropdown align="right" width="">
+                    <x-slot name="trigger">
+                         <img src="{{ asset('images/Capture d’écran (146).png') }}" class="w-9 h-9 rounded-full" alt="Profile">
+                      
+                    </x-slot>
+
+                    <x-slot name="content">
+                        <x-dropdown-link :href="route('profile.edit')">
+                            {{ __('Profile') }}
+                        </x-dropdown-link>
+
+                        
+                        
+                    </x-slot>
+
+
+                </x-dropdown>
                 </div>
             </header>
             <!-- Content Grid -->
@@ -210,15 +226,100 @@
     });
 </script>
 
+{{-- <div class="bg-white">
+    <div class="w-full max-w-xl bg-white rounded-3xl shadow-2xl">
+    <!-- Team Header Section -->
+    <div class="p-8 border-b border-gray-100">
+        <div class="flex items-start justify-between">
+            <div class="flex-1">
+                <div class="flex items-center gap-3 mb-3">
+                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-violet-100">
+                        <svg class="w-5 h-5 text-violet-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 00-5.656 0L7.757 16l-2.828-2.828a4 4 0 000-5.656L9.172 5.172a4 4 0 015.656 0L16 7.757l2.828-2.828a4 4 0 000-5.656L14.828 14.828z"></path></svg>
+                    </span>
+                    <span class="px-3 py-1 text-xs font-medium text-violet-600 bg-violet-50 rounded-full">
+                        Active Team
+                    </span>
+                </div>
+                <h2 class="text-3xl font-bold text-gray-900 mb-2">Design Wizards</h2>
+                <div class="flex items-center gap-2 text-gray-600">
+                    <svg class="w-4 h-4 text-amber-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v4.5m0 0l2-2m-2 2l-2-2M4.5 12a7.5 7.5 0 1115 0 7.5 7.5 0 01-15 0z"></path></svg>
+                    <span class="text-sm">Lead by</span>
+                    <span class="font-medium">Alex Morgan</span>
+                </div>
+            </div>
+            <div class="flex -space-x-3">
+                <img class="w-10 h-10 rounded-full border-2 border-white" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop" alt="Team member" />
+                <img class="w-10 h-10 rounded-full border-2 border-white" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop" alt="Team member" />
+                <img class="w-10 h-10 rounded-full border-2 border-white" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="Team member" />
+                <div class="w-10 h-10 rounded-full border-2 border-white bg-violet-100 flex items-center justify-center">
+                    <span class="text-sm font-medium text-violet-600">+2</span>
+                </div>
+            </div>
+        </div>
+    </div>
 
-<section class="grid grid-cols-1 pt-6  md:grid-cols-2 lg:grid-cols-3 gap-6">
+    <!-- Tasks Section -->
+    <div class="p-8">
+        <div class="flex items-center justify-between mb-6">
+            <div class="flex items-center gap-2">
+                <svg class="w-5 h-5 text-gray-700" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h2m4 0h2m-6 4h8m-8-8H7m9 8h.01"></path></svg>
+                <h3 class="text-lg font-semibold text-gray-800">Current Objectives</h3>
+            </div>
+            <span class="text-sm text-gray-500">3 active tasks</span>
+        </div>
+
+        <div class="space-y-4">
+            <div class="p-4 rounded-xl bg-gradient-to-r from-violet-50 to-purple-50 border border-violet-100">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="font-medium text-violet-900">Website Redesign</span>
+                    <span class="px-2 py-1 text-xs font-medium text-violet-600 bg-violet-100 rounded-full">In Progress</span>
+                </div>
+                <p class="text-sm text-gray-600">Complete homepage and dashboard layouts</p>
+            </div>
+
+            <div class="p-4 rounded-xl bg-gradient-to-r from-teal-50 to-emerald-50 border border-teal-100">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="font-medium text-teal-900">User Research</span>
+                    <span class="px-2 py-1 text-xs font-medium text-teal-600 bg-teal-100 rounded-full">Planning</span>
+                </div>
+                <p class="text-sm text-gray-600">Conduct user interviews and analyze feedback</p>
+            </div>
+
+            <div class="p-4 rounded-xl bg-gradient-to-r from-amber-50 to-yellow-50 border border-amber-100">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="font-medium text-amber-900">Design System</span>
+                    <span class="px-2 py-1 text-xs font-medium text-amber-600 bg-amber-100 rounded-full">Review</span>
+                </div>
+                <p class="text-sm text-gray-600">Update component library documentation</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Action Buttons -->
+    <div class="p-8 pt-0 grid grid-cols-3 gap-4">
+        <button class="flex items-center justify-center gap-2 px-4 py-3 rounded-xl text-sm font-medium text-white bg-violet-600 hover:bg-violet-700 transition-colors duration-200 shadow-lg shadow-violet-200">
+            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v4.5m0 0l2-2m-2 2l-2-2M4.5 12a7.5 7.5 0 1115 0 7.5 7.5 0 01-15 0z"></path></svg>
+            <span>Invite</span>
+        </button>
+        <button class="flex items-center justify-center gap-2 px-4 py-3 rounded-xl text-sm font-medium text-white bg-teal-600 hover:bg-teal-700 transition-colors duration-200 shadow-lg shadow-teal-200">
+            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v4.5m0 0l2-2m-2 2l-2-2M4.5 12a7.5 7.5 0 1115 0 7.5 7.5 0 01-15 0z"></path></svg>
+            <span>Add Task</span>
+        </button>
+        <button class="flex items-center justify-center gap-2 px-4 py-3 rounded-xl text-sm font-medium text-white bg-red-600 hover:bg-red-700 transition-colors duration-200 shadow-lg shadow-red-200">
+            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v4.5m0 0l2-2m-2 2l-2-2M4.5 12a7.5 7.5 0 1115 0 7.5 7.5 0 01-15 0z"></path></svg>
+            <span>Delete</span>
+        </button>
+    </div>
+</div>
+</div> --}}
+<section class="grid grid-cols-1 pt-6  md:grid-cols-2 lg:grid-cols-3 gap-4">
     <!-- Teams Overview -->
 
 
     @foreach ($teams as $team)
-        <div class="bg-white border border-gray-200 rounded-lg shadow-lg p-6">
+        <div class="bg-black border border-gray-200 rounded-lg shadow-lg p-6">
             <div class="flex justify-between items-center mb-4">
-                <div  > 
+                {{-- <div  > 
                     <h3 class="text-lg font-semibold text-gray-800">{{ $team->name }}</h3>
                     <span class="text-[10px] font-medium text-gray-500">
                         owner: {{ $team->owner->name }}
@@ -231,12 +332,419 @@
                         </button>
                     </form>
                 
-                </div>
+                </div> --}}
                 
-                <div class="flex flex-row gap-3">
+               
+</div>
+
+<div class="p-2  ">
+    <div class="flex items-start justify-between">
+        <div class="flex-1">
+            <div class="flex  flex-col">
+                <div class="flex "  > 
+                    <h3 class="text-2xl font-semibold text-white">{{ $team->name }}</h3>
+                </div>
+                <div class="flex items-center  gap-2 text-gray-600">
+                    <svg class="w-4 h-4 text-amber-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v4.5m0 0l2-2m-2 2l-2-2M4.5 12a7.5 7.5 0 1115 0 7.5 7.5 0 01-15 0z"></path></svg>
+                    <span class="text-[10px] "> Lead by: {{ $team->owner->name }}</span>
+                    
+                </div>
+                {{-- button --}}
+                {{-- <button onclick="openModal('modaleinvite{{ $team->id }}')"
+                    class=" font-semibold bg-black rounded-lg divide-gray-700 transition-all duration-300 ease-in-out flex items-center shadow-lg transform hover:scale-105">
+                    <svg width="35px" height="35px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="10" cy="6" r="4" stroke="#ffffff" stroke-width="0.8160000000000001"></circle> <path d="M21 10H19M19 10H17M19 10L19 8M19 10L19 12" stroke="#ffffff" stroke-width="0.8160000000000001" stroke-linecap="round"></path> <path d="M17.9975 18C18 17.8358 18 17.669 18 17.5C18 15.0147 14.4183 13 10 13C5.58172 13 2 15.0147 2 17.5C2 19.9853 2 22 10 22C12.231 22 13.8398 21.8433 15 21.5634" stroke="#ffffff" stroke-width="0.8160000000000001" stroke-linecap="round"></path> </g></svg>
+                </button>
+                <!-- Modal invite -->
+                <div id="modaleinvite{{ $team->id }}"
+                    class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 flex justify-center items-center">
+                    <div class="bg-white rounded-lg shadow-lg w-full max-w-md p-6 relative">
+                        <!-- Close Button -->
+                        <button onclick="closeModal('modaleinvite{{ $team->id }}')" type="button"
+                            class="absolute top-3 right-3 text-gray-400 hover:bg-red-200 hover:text-red-600 rounded-full p-2">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                    clip-rule="evenodd"></path>
+                            </svg>
+                        </button>
+    
+                        <!-- Modal Header -->
+                        <h2 class="text-xl font-semibold text-[#446fcc] text-center mb-6">Invite Members</h2>
+    
+                        <!-- Modal Content -->
+                        <form action="" method="post" class="space-y-5">
+                            @csrf
+                            <!-- Email Input -->
+                            <div>
+                                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email
+                                    Address</label>
+                                <div class="relative mt-1">
+                                    <input id="email" name="email" type="email" required
+                                        class="block w-full px-4 py-2 border rounded-lg shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc] placeholder-gray-400"
+                                        placeholder="Enter member's email">
+                                </div>
+                            </div>
+    
+                            <!-- Action Buttons -->
+                            <div class="flex justify-end gap-4 mt-6">
+                                <button type="button" onclick="closeModal('modaleinvite{{ $team->id }}')"
+                                    class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 transition">
+                                    Cancel
+                                </button>
+                                <button type="submit"
+                                    class="px-4 py-2 bg-[#446fcc] text-white rounded-md hover:bg-[#3658a7] transition">
+                                    Send Invite
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <!--    button  Create Task -->
+                <form action="{{ route('Team.destroy', $team->id) }}" method="POST" style="display:inline;">
+                    @csrf
+                    @method('DELETE')
+                    <button type="submit" class=" text-red-600" >
+                        Delete
+                    </button>
+                </form>
+                <button onclick="openModal('modaltask{{ $team->id }}')"
+                    class="border border-black bg-black font-semibold text-white rounded-lg transition-all duration-300 ease-in-out flex items-center shadow-lg transform hover:scale-105">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                        stroke-width="1.5" stroke="currentColor"  width="35px" height="35px">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 12h16M12 4v16" />
+                    </svg>
+                  
+                </button>
+                {{-- modal task --}}
+                <div id="modaltask{{ $team->id }}"
+                    class="fixed hidden z-50 inset-0 flex items-center justify-center bg-gray-900 bg-opacity-60"
+                    aria-hidden="true" role="dialog">
+                    <div class="bg-white rounded-lg shadow-lg max-w-lg w-full p-8 relative">
+                        <!-- Close Button -->
+                        <button
+                            class="absolute top-4 right-4 text-gray-400 hover:text-gray-600 focus:ring-2 focus:ring-gray-400 focus:outline-none"
+                            aria-label="Close Modal"
+                            onclick="toggleModal('modaltask{{ $team->id }}', false)">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd"
+                                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 011.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                    clip-rule="evenodd" />
+                            </svg>
+                        </button>
+                
+                        <!-- Modal Heading -->
+                        <h2 class="text-2xl font-bold text-center text-[#446fcc] mb-6">Create a New Task</h2>
+                
+                        <!-- Form for Creating a Task -->
+                        <form action="{{ route('Task.store') }}" method="POST">
+                            @csrf
+                
+                            <!-- Task Name -->
+                            <div class="mb-4">
+                                <label for="name"
+                                    class="block text-sm font-medium text-[#446fcc] mb-1">Task Name</label>
+                                <input type="text" name="name" id="name"
+                                    class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]"
+                                    placeholder="Enter task name" required value="{{ old('name') }}">
+                                @error('name')
+                                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                                @enderror
+                            </div>
+                
+                            <!-- Description -->
+                            <div class="mb-4">
+                                <label for="description"
+                                    class="block text-sm font-medium text-[#446fcc] mb-1">Description</label>
+                                <textarea name="description" id="description" rows="4"
+                                    class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]"
+                                    placeholder="Enter task description">{{ old('description') }}</textarea>
+                                @error('description')
+                                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                                @enderror
+                            </div>
+                           
+                            <div class="mb-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                <!-- Date Start -->
+                                <div>
+                                    <label for="start"
+                                        class="block text-sm font-medium text-gray-400 mb-1">Date Start</label>
+                                    <input type="datetime-local" id="start" name="start"
+                                        min="{{ date('Y-m-d\TH:i') }}"
+                                        class="w-full px-4 py-3 border border-gray-600 bg-gray-900 text-gray-200 rounded-md shadow-sm focus:ring-blue-400 focus:border-blue-400"
+                                        required>
+                                    @error('start')
+                                        <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                                    @enderror
+                                </div>
+                
+                                <!-- Date End -->
+                                <div>
+                                    <label for="end"
+                                        class="block text-sm font-medium text-gray-400 mb-1">Date End</label>
+                                    <input type="datetime-local" id="end" name="end"
+                                        min="{{ date('Y-m-d\TH:i') }}"
+                                        class="w-full px-4 py-3 border border-gray-600 bg-gray-900 text-gray-200 rounded-md shadow-sm focus:ring-blue-400 focus:border-blue-400"
+                                        required>
+                                    @error('end')
+                                        <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                                    @enderror
+                                </div>
+                            </div>
+                
+                            <!-- Priority -->
+                            <div class="mb-4">
+                                <label for="priority"
+                                    class="block text-sm font-medium text-[#446fcc] mb-1">Priority</label>
+                                <select name="priority" id="priority"
+                                    class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]">
+                                    <option value="High" {{ old('priority') == 'High' ? 'selected' : '' }}>
+                                        High</option>
+                                    <option value="Medium"
+                                        {{ old('priority') == 'Medium' ? 'selected' : '' }}>Medium</option>
+                                    <option value="Low" {{ old('priority') == 'Low' ? 'selected' : '' }}>
+                                        Low</option>
+                                </select>
+                                @error('priority')
+                                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                                @enderror
+                            </div>
+                
+                            {{-- <!-- Assign To -->
+                            <div class="mb-4">
+                                <label for="assigned_to"
+                                    class="block text-sm font-medium text-[#446fcc] mb-1">Assign to</label>
+                                <select name="assigned_to" id="assigned_to"
+                                    class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]">
+                                    <option value="">-- None --</option>
+                                    @foreach ($team->members as $member)
+                                        <h1>{{ $member }}</h1>
+                                        <option value="{{ $member->id }}">{{ $member->name }}</option>
+                                    @endforeach
+                                </select>
+                            </div> --}}
+                
+                            <!-- create task -->
+                            <div class="flex justify-end space-x-4 mt-6">
+                                <input type="hidden" name="team_id" value="{{ $team->id }}">
+                                <button type="button"
+                                    onclick="toggleModal('modaltask{{ $team->id }}', false)"
+                                    class="text-gray-900 bg-gray-200 hover:bg-gray-300 px-5 py-2 rounded-lg shadow transition">
+                                    Cancel
+                                </button>
+                                <button type="submit"
+                                    class="px-5 py-2 bg-[#446fcc] text-white font-bold rounded-lg shadow hover:bg-[#617deb] transition">
+                                    Create Task
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div> 
+           
+        </div>
+        <div class="flex -space-x-3">
+            <img class="w-10 h-10 rounded-full  border-white" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop" alt="Team member" />
+            <img class="w-10 h-10 rounded-full  border-white" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop" alt="Team member" />
+            <img class="w-10 h-10 rounded-full  border-white" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="Team member" />
+            <div class="w-10 h-10 rounded-full  border-white bg-violet-100 flex items-center justify-center">
+                <span class="text-sm font-medium text-violet-600">+2</span>
+            </div>
+        </div>
+    </div>
+</div>
+    {{-- task created by team show  --}}
+
+{{-- <div class="flex items-center p-12 bg-white/10 border-2 border-[#db74a5] rounded-3xl shadow-md">
+    <div class="container  mx-auto">
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            @if (isset($tasks) && $tasks->count())
+                @foreach ($team->$tasks as $task)
+                    <!-- Task Card -->
+                    <div class="bg-yellow-400 dark:bg-gray-600 p-6 rounded-lg shadow-lg text-gray-800 dark:text-gray-100 flex flex-col justify-between">
+                         <!-- Task Name -->
+                         <h3 class="text-lg font-semibold mb-4">{{ $task->id }}: {{ $task->name }}</h3>
+                      
+                    
+                          </div>
+                    </div>
+                @endforeach
+            @else
+                <p class="text-gray-500 col-span-4 text-center">No tasks available.</p>
+            @endif
+        </div>
+    </div>
+</div>  --}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      <!-- Tasks Section -->
+    <div class="">
+        <div class="flex  ml-[20vw] p-2">
+
+
+
+            <div class="flex items-center gap-2">
+                {{-- <svg class="w-5 h-5 text-gray-700" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h2m4 0h2m-6 4h8m-8-8H7m9 8h.01"></path></svg>
+                <h3 class="text-lg font-semibold text-gray-800">Current Objectives</h3> --}}
+            </div>
+             
+
+
+
+
+
+            <div class="relative group">
+                <button class="p-2 hover:bg-white/10 rounded-lg transition-colors">
+                  <svg class="w-5 h-5 text-gray-300" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                    <path d="M10 6a2 2 0 110-4 2 2 0 010 4zm0 4a2 2 0 110-4 2 2 0 010 4zm0 4a2 2 0 110-4 2 2 0 010 4z"></path>
+                  </svg>
+                </button>
+                <div class="hidden group-hover:block absolute right-0 mt-2 w-48 bg-slate-800 rounded-xl border border-white/10 shadow-xl z-10">
+                    <button onclick="openModal('modaltask{{ $team->id }}')"
+                        class="border border-black font-semibold text-white rounded-lg transition-all duration-300 ease-in-out flex items-center shadow-lg transform hover:scale-105">
+                     Add Task
+                      
+                    </button>
+                    {{-- modal task --}}
+                    <div id="modaltask{{ $team->id }}"
+                        class="fixed hidden z-50 inset-0 flex items-center justify-center bg-gray-900 bg-opacity-60"
+                        aria-hidden="true" role="dialog">
+                        <div class="bg-white rounded-lg shadow-lg max-w-lg w-full p-8 relative">
+                            <!-- Close Button -->
+                            <button
+                                class="absolute top-4 right-4 text-gray-400 hover:text-gray-600 focus:ring-2 focus:ring-gray-400 focus:outline-none"
+                                aria-label="Close Modal"
+                                onclick="toggleModal('modaltask{{ $team->id }}', false)">
+                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <path fill-rule="evenodd"
+                                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 011.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+                                        clip-rule="evenodd" />
+                                </svg>
+                            </button>
+                    
+                            <!-- Modal Heading -->
+                            <h2 class="text-2xl font-bold text-center text-[#446fcc] mb-6">Create a New Task</h2>
+                    
+                            <!-- Form for Creating a Task -->
+                            <form action="{{ route('Task.store') }}" method="POST">
+                                @csrf
+                    
+                                <!-- Task Name -->
+                                <div class="mb-4">
+                                    <label for="name"
+                                        class="block text-sm font-medium text-[#446fcc] mb-1">Task Name</label>
+                                    <input type="text" name="name" id="name"
+                                        class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]"
+                                        placeholder="Enter task name" required value="{{ old('name') }}">
+                                    @error('name')
+                                        <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                                    @enderror
+                                </div>
+                    
+                                <!-- Description -->
+                                <div class="mb-4">
+                                    <label for="description"
+                                        class="block text-sm font-medium text-[#446fcc] mb-1">Description</label>
+                                    <textarea name="description" id="description" rows="4"
+                                        class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]"
+                                        placeholder="Enter task description">{{ old('description') }}</textarea>
+                                    @error('description')
+                                        <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                                    @enderror
+                                </div>
+                               
+                                <div class="mb-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                                    <!-- Date Start -->
+                                    <div>
+                                        <label for="start"
+                                            class="block text-sm font-medium text-gray-400 mb-1">Date Start</label>
+                                        <input type="datetime-local" id="start" name="start"
+                                            min="{{ date('Y-m-d\TH:i') }}"
+                                            class="w-full px-4 py-3 border border-gray-600 bg-gray-900 text-gray-200 rounded-md shadow-sm focus:ring-blue-400 focus:border-blue-400"
+                                            required>
+                                        @error('start')
+                                            <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                                        @enderror
+                                    </div>
+                    
+                                    <!-- Date End -->
+                                    <div>
+                                        <label for="end"
+                                            class="block text-sm font-medium text-gray-400 mb-1">Date End</label>
+                                        <input type="datetime-local" id="end" name="end"
+                                            min="{{ date('Y-m-d\TH:i') }}"
+                                            class="w-full px-4 py-3 border border-gray-600 bg-gray-900 text-gray-200 rounded-md shadow-sm focus:ring-blue-400 focus:border-blue-400"
+                                            required>
+                                        @error('end')
+                                            <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                                        @enderror
+                                    </div>
+                                </div>
+                    
+                                <!-- Priority -->
+                                <div class="mb-4">
+                                    <label for="priority"
+                                        class="block text-sm font-medium text-[#446fcc] mb-1">Priority</label>
+                                    <select name="priority" id="priority"
+                                        class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]">
+                                        <option value="High" {{ old('priority') == 'High' ? 'selected' : '' }}>
+                                            High</option>
+                                        <option value="Medium"
+                                            {{ old('priority') == 'Medium' ? 'selected' : '' }}>Medium</option>
+                                        <option value="Low" {{ old('priority') == 'Low' ? 'selected' : '' }}>
+                                            Low</option>
+                                    </select>
+                                    @error('priority')
+                                        <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                                    @enderror
+                                </div>
+                    
+            
+                                <!-- create task -->
+                                <div class="flex justify-end space-x-4 mt-6">
+                                    <input type="hidden" name="team_id" value="{{ $team->id }}">
+                                    <button type="button"
+                                        onclick="toggleModal('modaltask{{ $team->id }}', false)"
+                                        class="text-gray-900 bg-gray-200 hover:bg-gray-300 px-5 py-2 rounded-lg shadow transition">
+                                        Cancel
+                                    </button>
+                                    <button type="submit"
+                                        class="px-5 py-2 bg-[#446fcc] text-white font-bold rounded-lg shadow hover:bg-[#617deb] transition">
+                                        Create Task
+                                    </button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
                     <button onclick="openModal('modaleinvite{{ $team->id }}')"
-                        class=" font-semibold bg-black rounded-lg divide-gray-700 transition-all duration-300 ease-in-out flex items-center shadow-lg transform hover:scale-105">
-                        <svg width="35px" height="35px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="10" cy="6" r="4" stroke="#ffffff" stroke-width="0.8160000000000001"></circle> <path d="M21 10H19M19 10H17M19 10L19 8M19 10L19 12" stroke="#ffffff" stroke-width="0.8160000000000001" stroke-linecap="round"></path> <path d="M17.9975 18C18 17.8358 18 17.669 18 17.5C18 15.0147 14.4183 13 10 13C5.58172 13 2 15.0147 2 17.5C2 19.9853 2 22 10 22C12.231 22 13.8398 21.8433 15 21.5634" stroke="#ffffff" stroke-width="0.8160000000000001" stroke-linecap="round"></path> </g></svg>
+                        class=" font-semibold rounded-lg divide-gray-700 transition-all duration-300 ease-in-out flex items-center shadow-lg transform hover:scale-105">
+                        <svg width="30px" height="30px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="10" cy="6" r="4" stroke="#ffffff" stroke-width="0.8160000000000001"></circle> <path d="M21 10H19M19 10H17M19 10L19 8M19 10L19 12" stroke="#ffffff" stroke-width="0.8160000000000001" stroke-linecap="round"></path> <path d="M17.9975 18C18 17.8358 18 17.669 18 17.5C18 15.0147 14.4183 13 10 13C5.58172 13 2 15.0147 2 17.5C2 19.9853 2 22 10 22C12.231 22 13.8398 21.8433 15 21.5634" stroke="#ffffff" stroke-width="0.8160000000000001" stroke-linecap="round"></path> </g></svg>
                     </button>
                     <!-- Modal invite -->
                     <div id="modaleinvite{{ $team->id }}"
@@ -284,198 +792,50 @@
                             </form>
                         </div>
                     </div>
-                    <!--     Create Task -->
-<button onclick="openModal('modaltask{{ $team->id }}')"
-    class="border border-black bg-black font-semibold text-white rounded-lg transition-all duration-300 ease-in-out flex items-center shadow-lg transform hover:scale-105">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-        stroke-width="1.5" stroke="currentColor"  width="35px" height="35px">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M4 12h16M12 4v16" />
-    </svg>
-  
-</button>
-
-<div id="modaltask{{ $team->id }}"
-    class="fixed hidden z-50 inset-0 flex items-center justify-center bg-gray-900 bg-opacity-60"
-    aria-hidden="true" role="dialog">
-    <div class="bg-white rounded-lg shadow-lg max-w-lg w-full p-8 relative">
-        <!-- Close Button -->
-        <button
-            class="absolute top-4 right-4 text-gray-400 hover:text-gray-600 focus:ring-2 focus:ring-gray-400 focus:outline-none"
-            aria-label="Close Modal"
-            onclick="toggleModal('modaltask{{ $team->id }}', false)">
-            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd"
-                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 011.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                    clip-rule="evenodd" />
-            </svg>
-        </button>
-
-        <!-- Modal Heading -->
-        <h2 class="text-2xl font-bold text-center text-[#446fcc] mb-6">Create a New Task</h2>
-
-        <!-- Form for Creating a Task -->
-        <form action="{{ route('Task.store') }}" method="POST">
-            @csrf
-
-            <!-- Task Name -->
-            <div class="mb-4">
-                <label for="name"
-                    class="block text-sm font-medium text-[#446fcc] mb-1">Task Name</label>
-                <input type="text" name="name" id="name"
-                    class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]"
-                    placeholder="Enter task name" required value="{{ old('name') }}">
-                @error('name')
-                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
-                @enderror
-            </div>
-
-            <!-- Description -->
-            <div class="mb-4">
-                <label for="description"
-                    class="block text-sm font-medium text-[#446fcc] mb-1">Description</label>
-                <textarea name="description" id="description" rows="4"
-                    class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]"
-                    placeholder="Enter task description">{{ old('description') }}</textarea>
-                @error('description')
-                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
-                @enderror
-            </div>
-           
-            <div class="mb-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                <!-- Date Start -->
-                <div>
-                    <label for="start"
-                        class="block text-sm font-medium text-gray-400 mb-1">Date Start</label>
-                    <input type="datetime-local" id="start" name="start"
-                        min="{{ date('Y-m-d\TH:i') }}"
-                        class="w-full px-4 py-3 border border-gray-600 bg-gray-900 text-gray-200 rounded-md shadow-sm focus:ring-blue-400 focus:border-blue-400"
-                        required>
-                    @error('start')
-                        <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
-                    @enderror
+                    <form action="{{ route('Team.destroy', $team->id) }}" method="POST" >
+                        @csrf
+                        @method('DELETE')
+                        <button type="submit" class=" flex items-center justify-center text-red-600" >
+                          Delete
+                        </button>
+                       
+                    </form> 
+                  </div>
                 </div>
+              </div>
+        </div>
 
-                <!-- Date End -->
-                <div>
-                    <label for="end"
-                        class="block text-sm font-medium text-gray-400 mb-1">Date End</label>
-                    <input type="datetime-local" id="end" name="end"
-                        min="{{ date('Y-m-d\TH:i') }}"
-                        class="w-full px-4 py-3 border border-gray-600 bg-gray-900 text-gray-200 rounded-md shadow-sm focus:ring-blue-400 focus:border-blue-400"
-                        required>
-                    @error('end')
-                        <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
-                    @enderror
+        <div class="space-y-2">
+            <div class="p-4 rounded-xl   bg-[#02098c]/30  border-[#02098c]  hover:border-[#02098c] hover:bg-black   border ">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="font-medium text-white">Website Redesign</span>
+                    <span class="px-2 py-1 text-xs border-[#02098c] text-white border bg-gradient-to-br from-black via-[#02098c] to-black  rounded-full">In Progress</span>
                 </div>
+                <p class="text-sm text-gray-600">Complete homepage and dashboard layouts</p>
             </div>
 
-            <!-- Priority -->
-            <div class="mb-4">
-                <label for="priority"
-                    class="block text-sm font-medium text-[#446fcc] mb-1">Priority</label>
-                <select name="priority" id="priority"
-                    class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]">
-                    <option value="High" {{ old('priority') == 'High' ? 'selected' : '' }}>
-                        High</option>
-                    <option value="Medium"
-                        {{ old('priority') == 'Medium' ? 'selected' : '' }}>Medium</option>
-                    <option value="Low" {{ old('priority') == 'Low' ? 'selected' : '' }}>
-                        Low</option>
-                </select>
-                @error('priority')
-                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
-                @enderror
+            <div class="p-4 rounded-xl  text-white   bg-[#02098c]/30 hover:bg-[#02098c] hover:border-[#02098c] hover:bg-black  border-[#02098c] border ">
+                <div class="flex items-center justify-between mb-2 ">
+                    <span class="font-medium text-white ">User Research</span>
+                    <span class="px-2 py-1 text-xs text-white border-[#02098c] border bg-gradient-to-br from-black via-[#02098c] to-black rounded-full">Planning</span>
+                </div>
+                <p class="text-sm text-gray-600">Conduct user interviews and analyze feedback</p>
             </div>
 
-            {{-- <!-- Assign To -->
-            <div class="mb-4">
-                <label for="assigned_to"
-                    class="block text-sm font-medium text-[#446fcc] mb-1">Assign to</label>
-                <select name="assigned_to" id="assigned_to"
-                    class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]">
-                    <option value="">-- None --</option>
-                    @foreach ($team->members as $member)
-                        <h1>{{ $member }}</h1>
-                        <option value="{{ $member->id }}">{{ $member->name }}</option>
-                    @endforeach
-                </select>
-            </div> --}}
-
-            <!-- create task -->
-            <div class="flex justify-end space-x-4 mt-6">
-                <input type="hidden" name="team_id" value="{{ $team->id }}">
-                <button type="button"
-                    onclick="toggleModal('modaltask{{ $team->id }}', false)"
-                    class="text-gray-900 bg-gray-200 hover:bg-gray-300 px-5 py-2 rounded-lg shadow transition">
-                    Cancel
-                </button>
-                <button type="submit"
-                    class="px-5 py-2 bg-[#446fcc] text-white font-bold rounded-lg shadow hover:bg-[#617deb] transition">
-                    Create Task
-                </button>
+            <div class="p-4 rounded-xl bg-[#02098c]/30 hover:bg-[#02098c] border-[#02098c] hover:border-[#02098c] hover:bg-black  border ">
+                <div class="flex items-center justify-between mb-2">
+                    <span class="font-medium text-white">Design System</span>
+                    <span class="px-2 py-1 text-xs  text-white border-[#02098c] border bg-gradient-to-br from-black via-[#02098c] to-black rounded-full">Review</span>
+                </div>
+                <p class="text-sm text-gray-400">Update component library documentation</p>
             </div>
-        </form>
-    </div>
-</div>
- </div>
-</div>
-
-           
-
-<div class="flex items-center p-12 bg-white/10 border-2 border-[#db74a5] rounded-3xl shadow-md">
-    <div class="container  mx-auto">
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            @if (isset($tasks) && $tasks->count())
-                @foreach ($team->$tasks as $task)
-                    <!-- Task Card -->
-                    <div class="bg-yellow-400 dark:bg-gray-600 p-6 rounded-lg shadow-lg text-gray-800 dark:text-gray-100 flex flex-col justify-between">
-                         <!-- Task Name -->
-                         <h3 class="text-lg font-semibold mb-4">{{ $task->id }}: {{ $task->name }}</h3>
-                      
-                    
-                          </div>
-                    </div>
-                @endforeach
-            @else
-                <p class="text-gray-500 col-span-4 text-center">No tasks available.</p>
-            @endif
         </div>
     </div>
-</div>        
-            <div class="mt-8">
-                <!-- Team Members Section -->
-                <div class="flex items-center gap-2 mb-4">
-                    <!-- Avatar -->
-                    <div class="h-8 w-8 rounded-full bg-gray-300 flex items-center justify-center overflow-hidden">
-                        <img src="/placeholder.svg" alt="Placeholder" class="h-full w-full object-cover" />
-                    </div>
-                    <!-- Team Info -->
-                    <div>
-                        <p class="text-sm font-medium">Lion geek</p>
-                        <p class="text-xs text-gray-500">10+ members</p>
-                    </div>
-                </div>
-            
-                <!-- Team Avatars -->
-                <div class="flex -space-x-2">
-                    <!-- Dynamically generated avatars -->
-                    <div class="h-8 w-8 rounded-full bg-gray-300 border-2 border-white flex items-center justify-center overflow-hidden">
-                        <img src="{{ asset('images/m1.png') }}" alt="User 0" class="h-full w-full object-cover" />
-                    </div>
-                    <div class="h-8 w-8 rounded-full bg-gray-300 border-2 border-white flex items-center justify-center overflow-hidden">
-                        <img src="{{ asset('images/m5.png') }}" alt="User 1" class="h-full w-full object-cover" />
-                    </div>
-                    <div class="h-8 w-8 rounded-full bg-gray-300 border-2 border-white flex items-center justify-center overflow-hidden">
-                        <img src="{{ asset('images/m4.png') }}" alt="User 2" class="h-full w-full object-cover" />
-                    </div>
-                  
-                </div>
-            </div>
+           
             
         </div>
     @endforeach
-
+    
 
 </section>
 
