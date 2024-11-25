@@ -35,7 +35,7 @@ class CalendarController extends Controller
                 "end" => $e->end,
                 "owner"=> $e->user_id,
                 "color" => "#02098c",
-                "textColor" => "#02098c",
+                "textColor" => "#fff",
                 "passed" => false,
                 "title" => $e->name
                 

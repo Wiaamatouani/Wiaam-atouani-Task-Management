@@ -226,618 +226,193 @@
     });
 </script>
 
-{{-- <div class="bg-white">
-    <div class="w-full max-w-xl bg-white rounded-3xl shadow-2xl">
-    <!-- Team Header Section -->
-    <div class="p-8 border-b border-gray-100">
-        <div class="flex items-start justify-between">
-            <div class="flex-1">
-                <div class="flex items-center gap-3 mb-3">
-                    <span class="inline-flex items-center justify-center w-10 h-10 rounded-xl bg-violet-100">
-                        <svg class="w-5 h-5 text-violet-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M14.828 14.828a4 4 0 00-5.656 0L7.757 16l-2.828-2.828a4 4 0 000-5.656L9.172 5.172a4 4 0 015.656 0L16 7.757l2.828-2.828a4 4 0 000-5.656L14.828 14.828z"></path></svg>
-                    </span>
-                    <span class="px-3 py-1 text-xs font-medium text-violet-600 bg-violet-50 rounded-full">
-                        Active Team
-                    </span>
-                </div>
-                <h2 class="text-3xl font-bold text-gray-900 mb-2">Design Wizards</h2>
-                <div class="flex items-center gap-2 text-gray-600">
-                    <svg class="w-4 h-4 text-amber-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v4.5m0 0l2-2m-2 2l-2-2M4.5 12a7.5 7.5 0 1115 0 7.5 7.5 0 01-15 0z"></path></svg>
-                    <span class="text-sm">Lead by</span>
-                    <span class="font-medium">Alex Morgan</span>
-                </div>
-            </div>
-            <div class="flex -space-x-3">
-                <img class="w-10 h-10 rounded-full border-2 border-white" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop" alt="Team member" />
-                <img class="w-10 h-10 rounded-full border-2 border-white" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop" alt="Team member" />
-                <img class="w-10 h-10 rounded-full border-2 border-white" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="Team member" />
-                <div class="w-10 h-10 rounded-full border-2 border-white bg-violet-100 flex items-center justify-center">
-                    <span class="text-sm font-medium text-violet-600">+2</span>
-                </div>
-            </div>
-        </div>
-    </div>
 
-    <!-- Tasks Section -->
-    <div class="p-8">
-        <div class="flex items-center justify-between mb-6">
-            <div class="flex items-center gap-2">
-                <svg class="w-5 h-5 text-gray-700" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h2m4 0h2m-6 4h8m-8-8H7m9 8h.01"></path></svg>
-                <h3 class="text-lg font-semibold text-gray-800">Current Objectives</h3>
-            </div>
-            <span class="text-sm text-gray-500">3 active tasks</span>
-        </div>
-
-        <div class="space-y-4">
-            <div class="p-4 rounded-xl bg-gradient-to-r from-violet-50 to-purple-50 border border-violet-100">
-                <div class="flex items-center justify-between mb-2">
-                    <span class="font-medium text-violet-900">Website Redesign</span>
-                    <span class="px-2 py-1 text-xs font-medium text-violet-600 bg-violet-100 rounded-full">In Progress</span>
-                </div>
-                <p class="text-sm text-gray-600">Complete homepage and dashboard layouts</p>
-            </div>
-
-            <div class="p-4 rounded-xl bg-gradient-to-r from-teal-50 to-emerald-50 border border-teal-100">
-                <div class="flex items-center justify-between mb-2">
-                    <span class="font-medium text-teal-900">User Research</span>
-                    <span class="px-2 py-1 text-xs font-medium text-teal-600 bg-teal-100 rounded-full">Planning</span>
-                </div>
-                <p class="text-sm text-gray-600">Conduct user interviews and analyze feedback</p>
-            </div>
-
-            <div class="p-4 rounded-xl bg-gradient-to-r from-amber-50 to-yellow-50 border border-amber-100">
-                <div class="flex items-center justify-between mb-2">
-                    <span class="font-medium text-amber-900">Design System</span>
-                    <span class="px-2 py-1 text-xs font-medium text-amber-600 bg-amber-100 rounded-full">Review</span>
-                </div>
-                <p class="text-sm text-gray-600">Update component library documentation</p>
-            </div>
-        </div>
-    </div>
-
-    <!-- Action Buttons -->
-    <div class="p-8 pt-0 grid grid-cols-3 gap-4">
-        <button class="flex items-center justify-center gap-2 px-4 py-3 rounded-xl text-sm font-medium text-white bg-violet-600 hover:bg-violet-700 transition-colors duration-200 shadow-lg shadow-violet-200">
-            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v4.5m0 0l2-2m-2 2l-2-2M4.5 12a7.5 7.5 0 1115 0 7.5 7.5 0 01-15 0z"></path></svg>
-            <span>Invite</span>
-        </button>
-        <button class="flex items-center justify-center gap-2 px-4 py-3 rounded-xl text-sm font-medium text-white bg-teal-600 hover:bg-teal-700 transition-colors duration-200 shadow-lg shadow-teal-200">
-            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v4.5m0 0l2-2m-2 2l-2-2M4.5 12a7.5 7.5 0 1115 0 7.5 7.5 0 01-15 0z"></path></svg>
-            <span>Add Task</span>
-        </button>
-        <button class="flex items-center justify-center gap-2 px-4 py-3 rounded-xl text-sm font-medium text-white bg-red-600 hover:bg-red-700 transition-colors duration-200 shadow-lg shadow-red-200">
-            <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v4.5m0 0l2-2m-2 2l-2-2M4.5 12a7.5 7.5 0 1115 0 7.5 7.5 0 01-15 0z"></path></svg>
-            <span>Delete</span>
-        </button>
-    </div>
-</div>
-</div> --}}
-<section class="grid grid-cols-1 pt-6  md:grid-cols-2 lg:grid-cols-3 gap-4">
-    <!-- Teams Overview -->
-
-
+<section class="flex flex-wrap pt-6 gap-4">
     @foreach ($teams as $team)
-        <div class="bg-black border border-gray-200 rounded-lg shadow-lg p-6">
-            <div class="flex justify-between items-center mb-4">
-                {{-- <div  > 
-                    <h3 class="text-lg font-semibold text-gray-800">{{ $team->name }}</h3>
-                    <span class="text-[10px] font-medium text-gray-500">
-                        owner: {{ $team->owner->name }}
-                    </span>
-                    <form action="{{ route('Team.destroy', $team->id) }}" method="POST" style="display:inline;">
-                        @csrf
-                        @method('DELETE')
-                        <button type="submit" class=" text-red-600" >
-                            Delete
-                        </button>
-                    </form>
-                
-                </div> --}}
-                
-               
-</div>
-
-<div class="p-2  ">
-    <div class="flex items-start justify-between">
-        <div class="flex-1">
-            <div class="flex  flex-col">
-                <div class="flex "  > 
-                    <h3 class="text-2xl font-semibold text-white">{{ $team->name }}</h3>
-                </div>
-                <div class="flex items-center  gap-2 text-gray-600">
-                    <svg class="w-4 h-4 text-amber-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v4.5m0 0l2-2m-2 2l-2-2M4.5 12a7.5 7.5 0 1115 0 7.5 7.5 0 01-15 0z"></path></svg>
-                    <span class="text-[10px] "> Lead by: {{ $team->owner->name }}</span>
-                    
-                </div>
-                {{-- button --}}
-                {{-- <button onclick="openModal('modaleinvite{{ $team->id }}')"
-                    class=" font-semibold bg-black rounded-lg divide-gray-700 transition-all duration-300 ease-in-out flex items-center shadow-lg transform hover:scale-105">
-                    <svg width="35px" height="35px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="10" cy="6" r="4" stroke="#ffffff" stroke-width="0.8160000000000001"></circle> <path d="M21 10H19M19 10H17M19 10L19 8M19 10L19 12" stroke="#ffffff" stroke-width="0.8160000000000001" stroke-linecap="round"></path> <path d="M17.9975 18C18 17.8358 18 17.669 18 17.5C18 15.0147 14.4183 13 10 13C5.58172 13 2 15.0147 2 17.5C2 19.9853 2 22 10 22C12.231 22 13.8398 21.8433 15 21.5634" stroke="#ffffff" stroke-width="0.8160000000000001" stroke-linecap="round"></path> </g></svg>
-                </button>
-                <!-- Modal invite -->
-                <div id="modaleinvite{{ $team->id }}"
-                    class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 flex justify-center items-center">
-                    <div class="bg-white rounded-lg shadow-lg w-full max-w-md p-6 relative">
-                        <!-- Close Button -->
-                        <button onclick="closeModal('modaleinvite{{ $team->id }}')" type="button"
-                            class="absolute top-3 right-3 text-gray-400 hover:bg-red-200 hover:text-red-600 rounded-full p-2">
-                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                                    clip-rule="evenodd"></path>
-                            </svg>
-                        </button>
-    
-                        <!-- Modal Header -->
-                        <h2 class="text-xl font-semibold text-[#446fcc] text-center mb-6">Invite Members</h2>
-    
-                        <!-- Modal Content -->
-                        <form action="" method="post" class="space-y-5">
-                            @csrf
-                            <!-- Email Input -->
-                            <div>
-                                <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email
-                                    Address</label>
-                                <div class="relative mt-1">
-                                    <input id="email" name="email" type="email" required
-                                        class="block w-full px-4 py-2 border rounded-lg shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc] placeholder-gray-400"
-                                        placeholder="Enter member's email">
-                                </div>
-                            </div>
-    
-                            <!-- Action Buttons -->
-                            <div class="flex justify-end gap-4 mt-6">
-                                <button type="button" onclick="closeModal('modaleinvite{{ $team->id }}')"
-                                    class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 transition">
-                                    Cancel
-                                </button>
-                                <button type="submit"
-                                    class="px-4 py-2 bg-[#446fcc] text-white rounded-md hover:bg-[#3658a7] transition">
-                                    Send Invite
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-                <!--    button  Create Task -->
-                <form action="{{ route('Team.destroy', $team->id) }}" method="POST" style="display:inline;">
-                    @csrf
-                    @method('DELETE')
-                    <button type="submit" class=" text-red-600" >
-                        Delete
-                    </button>
-                </form>
-                <button onclick="openModal('modaltask{{ $team->id }}')"
-                    class="border border-black bg-black font-semibold text-white rounded-lg transition-all duration-300 ease-in-out flex items-center shadow-lg transform hover:scale-105">
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                        stroke-width="1.5" stroke="currentColor"  width="35px" height="35px">
-                        <path stroke-linecap="round" stroke-linejoin="round" d="M4 12h16M12 4v16" />
-                    </svg>
-                  
-                </button>
-                {{-- modal task --}}
-                <div id="modaltask{{ $team->id }}"
-                    class="fixed hidden z-50 inset-0 flex items-center justify-center bg-gray-900 bg-opacity-60"
-                    aria-hidden="true" role="dialog">
-                    <div class="bg-white rounded-lg shadow-lg max-w-lg w-full p-8 relative">
-                        <!-- Close Button -->
-                        <button
-                            class="absolute top-4 right-4 text-gray-400 hover:text-gray-600 focus:ring-2 focus:ring-gray-400 focus:outline-none"
-                            aria-label="Close Modal"
-                            onclick="toggleModal('modaltask{{ $team->id }}', false)">
-                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <path fill-rule="evenodd"
-                                    d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 011.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                                    clip-rule="evenodd" />
-                            </svg>
-                        </button>
-                
-                        <!-- Modal Heading -->
-                        <h2 class="text-2xl font-bold text-center text-[#446fcc] mb-6">Create a New Task</h2>
-                
-                        <!-- Form for Creating a Task -->
-                        <form action="{{ route('Task.store') }}" method="POST">
-                            @csrf
-                
-                            <!-- Task Name -->
-                            <div class="mb-4">
-                                <label for="name"
-                                    class="block text-sm font-medium text-[#446fcc] mb-1">Task Name</label>
-                                <input type="text" name="name" id="name"
-                                    class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]"
-                                    placeholder="Enter task name" required value="{{ old('name') }}">
-                                @error('name')
-                                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
-                                @enderror
-                            </div>
-                
-                            <!-- Description -->
-                            <div class="mb-4">
-                                <label for="description"
-                                    class="block text-sm font-medium text-[#446fcc] mb-1">Description</label>
-                                <textarea name="description" id="description" rows="4"
-                                    class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]"
-                                    placeholder="Enter task description">{{ old('description') }}</textarea>
-                                @error('description')
-                                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
-                                @enderror
-                            </div>
-                           
-                            <div class="mb-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                                <!-- Date Start -->
-                                <div>
-                                    <label for="start"
-                                        class="block text-sm font-medium text-gray-400 mb-1">Date Start</label>
-                                    <input type="datetime-local" id="start" name="start"
-                                        min="{{ date('Y-m-d\TH:i') }}"
-                                        class="w-full px-4 py-3 border border-gray-600 bg-gray-900 text-gray-200 rounded-md shadow-sm focus:ring-blue-400 focus:border-blue-400"
-                                        required>
-                                    @error('start')
-                                        <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
-                                    @enderror
-                                </div>
-                
-                                <!-- Date End -->
-                                <div>
-                                    <label for="end"
-                                        class="block text-sm font-medium text-gray-400 mb-1">Date End</label>
-                                    <input type="datetime-local" id="end" name="end"
-                                        min="{{ date('Y-m-d\TH:i') }}"
-                                        class="w-full px-4 py-3 border border-gray-600 bg-gray-900 text-gray-200 rounded-md shadow-sm focus:ring-blue-400 focus:border-blue-400"
-                                        required>
-                                    @error('end')
-                                        <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
-                                    @enderror
-                                </div>
-                            </div>
-                
-                            <!-- Priority -->
-                            <div class="mb-4">
-                                <label for="priority"
-                                    class="block text-sm font-medium text-[#446fcc] mb-1">Priority</label>
-                                <select name="priority" id="priority"
-                                    class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]">
-                                    <option value="High" {{ old('priority') == 'High' ? 'selected' : '' }}>
-                                        High</option>
-                                    <option value="Medium"
-                                        {{ old('priority') == 'Medium' ? 'selected' : '' }}>Medium</option>
-                                    <option value="Low" {{ old('priority') == 'Low' ? 'selected' : '' }}>
-                                        Low</option>
-                                </select>
-                                @error('priority')
-                                    <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
-                                @enderror
-                            </div>
-                
-                            {{-- <!-- Assign To -->
-                            <div class="mb-4">
-                                <label for="assigned_to"
-                                    class="block text-sm font-medium text-[#446fcc] mb-1">Assign to</label>
-                                <select name="assigned_to" id="assigned_to"
-                                    class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]">
-                                    <option value="">-- None --</option>
-                                    @foreach ($team->members as $member)
-                                        <h1>{{ $member }}</h1>
-                                        <option value="{{ $member->id }}">{{ $member->name }}</option>
-                                    @endforeach
-                                </select>
-                            </div> --}}
-                
-                            <!-- create task -->
-                            <div class="flex justify-end space-x-4 mt-6">
-                                <input type="hidden" name="team_id" value="{{ $team->id }}">
-                                <button type="button"
-                                    onclick="toggleModal('modaltask{{ $team->id }}', false)"
-                                    class="text-gray-900 bg-gray-200 hover:bg-gray-300 px-5 py-2 rounded-lg shadow transition">
-                                    Cancel
-                                </button>
-                                <button type="submit"
-                                    class="px-5 py-2 bg-[#446fcc] text-white font-bold rounded-lg shadow hover:bg-[#617deb] transition">
-                                    Create Task
-                                </button>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div> 
-           
-        </div>
-        <div class="flex -space-x-3">
-            <img class="w-10 h-10 rounded-full  border-white" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop" alt="Team member" />
-            <img class="w-10 h-10 rounded-full  border-white" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop" alt="Team member" />
-            <img class="w-10 h-10 rounded-full  border-white" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="Team member" />
-            <div class="w-10 h-10 rounded-full  border-white bg-violet-100 flex items-center justify-center">
-                <span class="text-sm font-medium text-violet-600">+2</span>
-            </div>
-        </div>
-    </div>
-</div>
-    {{-- task created by team show  --}}
-
-{{-- <div class="flex items-center p-12 bg-white/10 border-2 border-[#db74a5] rounded-3xl shadow-md">
-    <div class="container  mx-auto">
-        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            @if (isset($tasks) && $tasks->count())
-                @foreach ($team->$tasks as $task)
-                    <!-- Task Card -->
-                    <div class="bg-yellow-400 dark:bg-gray-600 p-6 rounded-lg shadow-lg text-gray-800 dark:text-gray-100 flex flex-col justify-between">
-                         <!-- Task Name -->
-                         <h3 class="text-lg font-semibold mb-4">{{ $task->id }}: {{ $task->name }}</h3>
-                      
-                    
-                          </div>
-                    </div>
-                @endforeach
-            @else
-                <p class="text-gray-500 col-span-4 text-center">No tasks available.</p>
-            @endif
-        </div>
-    </div>
-</div>  --}}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      <!-- Tasks Section -->
-    <div class="">
-        <div class="flex  ml-[20vw] p-2">
-
-
-
-            <div class="flex items-center gap-2">
-                {{-- <svg class="w-5 h-5 text-gray-700" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M9 12h2m4 0h2m-6 4h8m-8-8H7m9 8h.01"></path></svg>
-                <h3 class="text-lg font-semibold text-gray-800">Current Objectives</h3> --}}
-            </div>
-             
-
-
-
-
-
-            <div class="relative group">
-                <button class="p-2 hover:bg-white/10 rounded-lg transition-colors">
-                  <svg class="w-5 h-5 text-gray-300" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                    <path d="M10 6a2 2 0 110-4 2 2 0 010 4zm0 4a2 2 0 110-4 2 2 0 010 4zm0 4a2 2 0 110-4 2 2 0 010 4z"></path>
-                  </svg>
-                </button>
-                <div class="hidden group-hover:block absolute right-0 mt-2 w-48 bg-slate-800 rounded-xl border border-white/10 shadow-xl z-10">
-                    <button onclick="openModal('modaltask{{ $team->id }}')"
-                        class="border border-black font-semibold text-white rounded-lg transition-all duration-300 ease-in-out flex items-center shadow-lg transform hover:scale-105">
-                     Add Task
-                      
-                    </button>
-                    {{-- modal task --}}
-                    <div id="modaltask{{ $team->id }}"
-                        class="fixed hidden z-50 inset-0 flex items-center justify-center bg-gray-900 bg-opacity-60"
-                        aria-hidden="true" role="dialog">
-                        <div class="bg-white rounded-lg shadow-lg max-w-lg w-full p-8 relative">
-                            <!-- Close Button -->
-                            <button
-                                class="absolute top-4 right-4 text-gray-400 hover:text-gray-600 focus:ring-2 focus:ring-gray-400 focus:outline-none"
-                                aria-label="Close Modal"
-                                onclick="toggleModal('modaltask{{ $team->id }}', false)">
-                                <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 011.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                                        clip-rule="evenodd" />
-                                </svg>
-                            </button>
-                    
-                            <!-- Modal Heading -->
-                            <h2 class="text-2xl font-bold text-center text-[#446fcc] mb-6">Create a New Task</h2>
-                    
-                            <!-- Form for Creating a Task -->
-                            <form action="{{ route('Task.store') }}" method="POST">
-                                @csrf
-                    
-                                <!-- Task Name -->
-                                <div class="mb-4">
-                                    <label for="name"
-                                        class="block text-sm font-medium text-[#446fcc] mb-1">Task Name</label>
-                                    <input type="text" name="name" id="name"
-                                        class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]"
-                                        placeholder="Enter task name" required value="{{ old('name') }}">
-                                    @error('name')
-                                        <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
-                                    @enderror
-                                </div>
-                    
-                                <!-- Description -->
-                                <div class="mb-4">
-                                    <label for="description"
-                                        class="block text-sm font-medium text-[#446fcc] mb-1">Description</label>
-                                    <textarea name="description" id="description" rows="4"
-                                        class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]"
-                                        placeholder="Enter task description">{{ old('description') }}</textarea>
-                                    @error('description')
-                                        <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
-                                    @enderror
-                                </div>
-                               
-                                <div class="mb-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
-                                    <!-- Date Start -->
-                                    <div>
-                                        <label for="start"
-                                            class="block text-sm font-medium text-gray-400 mb-1">Date Start</label>
-                                        <input type="datetime-local" id="start" name="start"
-                                            min="{{ date('Y-m-d\TH:i') }}"
-                                            class="w-full px-4 py-3 border border-gray-600 bg-gray-900 text-gray-200 rounded-md shadow-sm focus:ring-blue-400 focus:border-blue-400"
-                                            required>
-                                        @error('start')
-                                            <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
-                                        @enderror
-                                    </div>
-                    
-                                    <!-- Date End -->
-                                    <div>
-                                        <label for="end"
-                                            class="block text-sm font-medium text-gray-400 mb-1">Date End</label>
-                                        <input type="datetime-local" id="end" name="end"
-                                            min="{{ date('Y-m-d\TH:i') }}"
-                                            class="w-full px-4 py-3 border border-gray-600 bg-gray-900 text-gray-200 rounded-md shadow-sm focus:ring-blue-400 focus:border-blue-400"
-                                            required>
-                                        @error('end')
-                                            <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
-                                        @enderror
-                                    </div>
-                                </div>
-                    
-                                <!-- Priority -->
-                                <div class="mb-4">
-                                    <label for="priority"
-                                        class="block text-sm font-medium text-[#446fcc] mb-1">Priority</label>
-                                    <select name="priority" id="priority"
-                                        class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]">
-                                        <option value="High" {{ old('priority') == 'High' ? 'selected' : '' }}>
-                                            High</option>
-                                        <option value="Medium"
-                                            {{ old('priority') == 'Medium' ? 'selected' : '' }}>Medium</option>
-                                        <option value="Low" {{ old('priority') == 'Low' ? 'selected' : '' }}>
-                                            Low</option>
-                                    </select>
-                                    @error('priority')
-                                        <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
-                                    @enderror
-                                </div>
-                    
-            
-                                <!-- create task -->
-                                <div class="flex justify-end space-x-4 mt-6">
-                                    <input type="hidden" name="team_id" value="{{ $team->id }}">
-                                    <button type="button"
-                                        onclick="toggleModal('modaltask{{ $team->id }}', false)"
-                                        class="text-gray-900 bg-gray-200 hover:bg-gray-300 px-5 py-2 rounded-lg shadow transition">
-                                        Cancel
-                                    </button>
-                                    <button type="submit"
-                                        class="px-5 py-2 bg-[#446fcc] text-white font-bold rounded-lg shadow hover:bg-[#617deb] transition">
-                                        Create Task
-                                    </button>
-                                </div>
-                            </form>
+    <div class="bg-black border border-gray-200 rounded-lg shadow-lg p-6">
+        {{-- Team Header --}}
+        <div class="p-2">
+            <div class="flex items-start gap-x-5 justify-between">
+                <div class="flex-1">
+                    <div class="flex flex-col">
+                        <div class="flex"> 
+                            <h3 class="text-2xl font-semibold text-white">{{ $team->name }}</h3>
+                        </div>
+                        <div class="flex items-center gap-2 text-gray-600">
+                            <svg class="w-4 h-4 text-amber-500" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M12 8.25v4.5m0 0l2-2m-2 2l-2-2M4.5 12a7.5 7.5 0 1115 0 7.5 7.5 0 01-15 0z"></path></svg>
+                            <span class="text-[10px]"> Lead by: {{ $team->owner->name }}</span>
                         </div>
                     </div>
-                    <button onclick="openModal('modaleinvite{{ $team->id }}')"
-                        class=" font-semibold rounded-lg divide-gray-700 transition-all duration-300 ease-in-out flex items-center shadow-lg transform hover:scale-105">
-                        <svg width="30px" height="30px" viewBox="0 0 24.00 24.00" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="10" cy="6" r="4" stroke="#ffffff" stroke-width="0.8160000000000001"></circle> <path d="M21 10H19M19 10H17M19 10L19 8M19 10L19 12" stroke="#ffffff" stroke-width="0.8160000000000001" stroke-linecap="round"></path> <path d="M17.9975 18C18 17.8358 18 17.669 18 17.5C18 15.0147 14.4183 13 10 13C5.58172 13 2 15.0147 2 17.5C2 19.9853 2 22 10 22C12.231 22 13.8398 21.8433 15 21.5634" stroke="#ffffff" stroke-width="0.8160000000000001" stroke-linecap="round"></path> </g></svg>
-                    </button>
-                    <!-- Modal invite -->
-                    <div id="modaleinvite{{ $team->id }}"
-                        class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 flex justify-center items-center">
-                        <div class="bg-white rounded-lg shadow-lg w-full max-w-md p-6 relative">
-                            <!-- Close Button -->
-                            <button onclick="closeModal('modaleinvite{{ $team->id }}')" type="button"
-                                class="absolute top-3 right-3 text-gray-400 hover:bg-red-200 hover:text-red-600 rounded-full p-2">
-                                <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path fill-rule="evenodd"
-                                        d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
-                                        clip-rule="evenodd"></path>
-                                </svg>
-                            </button>
-        
-                            <!-- Modal Header -->
-                            <h2 class="text-xl font-semibold text-[#446fcc] text-center mb-6">Invite Members</h2>
-        
-                            <!-- Modal Content -->
-                            <form action="" method="post" class="space-y-5">
-                                @csrf
-                                <!-- Email Input -->
-                                <div>
-                                    <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email
-                                        Address</label>
-                                    <div class="relative mt-1">
-                                        <input id="email" name="email" type="email" required
-                                            class="block w-full px-4 py-2 border rounded-lg shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc] placeholder-gray-400"
-                                            placeholder="Enter member's email">
-                                    </div>
-                                </div>
-        
-                                <!-- Action Buttons -->
-                                <div class="flex justify-end gap-4 mt-6">
-                                    <button type="button" onclick="closeModal('modaleinvite{{ $team->id }}')"
-                                        class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 transition">
-                                        Cancel
-                                    </button>
-                                    <button type="submit"
-                                        class="px-4 py-2 bg-[#446fcc] text-white rounded-md hover:bg-[#3658a7] transition">
-                                        Send Invite
-                                    </button>
-                                </div>
-                            </form>
-                        </div>
+                </div>
+                <div class="flex -space-x-3">
+                    <img class="w-10 h-10 rounded-full border-white" src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&h=100&fit=crop" alt="Team member" />
+                    <img class="w-10 h-10 rounded-full border-white" src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=100&h=100&fit=crop" alt="Team member" />
+                    <img class="w-10 h-10 rounded-full border-white" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="Team member" />
+                    <div class="w-10 h-10 rounded-full border-white bg-violet-100 flex items-center justify-center">
+                        <span class="text-sm font-medium text-violet-600">+2</span>
                     </div>
-                    <form action="{{ route('Team.destroy', $team->id) }}" method="POST" >
-                        @csrf
-                        @method('DELETE')
-                        <button type="submit" class=" flex items-center justify-center text-red-600" >
-                          Delete
-                        </button>
+                </div>
+            </div>
+        </div>
+
+        {{-- Tasks Section --}}
+        <div class="mt-4">
+            <div class="flex justify-end mb-4">
+                <div class="relative group">
+                    <button class="p-2 hover:bg-white/10 rounded-lg transition-colors">
+                        <svg class="w-5 h-5 text-gray-300" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                            <path d="M10 6a2 2 0 110-4 2 2 0 010 4zm0 4a2 2 0 110-4 2 2 0 010 4zm0 4a2 2 0 110-4 2 2 0 010 4z"></path>
+                        </svg>
+                    </button>
+                    <div class="hidden group-hover:block absolute right-0 mt-2 w-48 bg-slate-800 rounded-xl border border-white/10 shadow-xl z-10">
                        
-                    </form> 
-                  </div>
+                        <button onclick="openModal('modaleinvite{{ $team->id }}')" class="w-full pl-3 pt-3 font-base text-white rounded-lg transition-all duration-300 ease-in-out flex items-center shadow-lg transform hover:scale-105">
+                            Invite
+                        </button>
+                        <form action="{{ route('Team.destroy', $team->id) }}" method="POST" class="w-full">
+                            @csrf
+                            @method('DELETE')
+                            <button type="submit" class="w-full p-3 text-left text-red-600 hover:bg-white/10">
+                                Delete
+                            </button>
+                        </form>
+                    </div>
                 </div>
-              </div>
+            </div>
+            <button onclick="openModal('modaltask{{ $team->id }}')" class="w-full pl-3 pt-3 font-base text-white rounded-lg transition-all duration-300 ease-in-out flex items-center shadow-lg transform hover:scale-105">
+                Add Task
+            </button>
+            {{-- Task Cards --}}
+            <div class="space-y-2">
+                {{-- <h2 class="text-lg font-bold text-white">{{ $team->name }}</h2> --}}
+                <ul>
+                    @foreach ($team->tasks as $task)
+                            <div class="p-4 rounded-xl bg-[#02098c]/30 hover:bg-[#02098c] hover:border-[#02098c] hover:bg-black border-[#02098c] border">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="font-medium text-white">{{ $task->name }}</span>
+                                    <span class="px-2 py-1 text-xs text-white border-[#02098c] border bg-gradient-to-br from-black via-[#02098c] to-black rounded-full">
+                                        {{ $task->status ?? 'Pending' }}
+                                    </span>
+                                </div>
+                                <p class="text-sm text-gray-400">{{ $task->description ?? 'No description provided.' }}</p>
+                            </div>
+                    @endforeach
+                    </ul>
+            </div>
+            
         </div>
 
-        <div class="space-y-2">
-            <div class="p-4 rounded-xl   bg-[#02098c]/30  border-[#02098c]  hover:border-[#02098c] hover:bg-black   border ">
-                <div class="flex items-center justify-between mb-2">
-                    <span class="font-medium text-white">Website Redesign</span>
-                    <span class="px-2 py-1 text-xs border-[#02098c] text-white border bg-gradient-to-br from-black via-[#02098c] to-black  rounded-full">In Progress</span>
-                </div>
-                <p class="text-sm text-gray-600">Complete homepage and dashboard layouts</p>
-            </div>
+        {{-- Task Modal --}}
+        <div id="modaltask{{ $team->id }}" class="fixed hidden z-50 inset-0 flex items-center justify-center bg-gray-900 bg-opacity-60" aria-hidden="true" role="dialog">
+            <div class="bg-white rounded-lg shadow-lg max-w-lg w-full p-8 relative">
+                <button class="absolute top-4 right-4 text-gray-400 hover:text-gray-600 focus:ring-2 focus:ring-gray-400 focus:outline-none" aria-label="Close Modal" onclick="toggleModal('modaltask{{ $team->id }}', false)">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 011.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd" />
+                    </svg>
+                </button>
 
-            <div class="p-4 rounded-xl  text-white   bg-[#02098c]/30 hover:bg-[#02098c] hover:border-[#02098c] hover:bg-black  border-[#02098c] border ">
-                <div class="flex items-center justify-between mb-2 ">
-                    <span class="font-medium text-white ">User Research</span>
-                    <span class="px-2 py-1 text-xs text-white border-[#02098c] border bg-gradient-to-br from-black via-[#02098c] to-black rounded-full">Planning</span>
-                </div>
-                <p class="text-sm text-gray-600">Conduct user interviews and analyze feedback</p>
-            </div>
+                <h2 class="text-2xl font-bold text-center text-[#446fcc] mb-6">Create a New Task</h2>
 
-            <div class="p-4 rounded-xl bg-[#02098c]/30 hover:bg-[#02098c] border-[#02098c] hover:border-[#02098c] hover:bg-black  border ">
-                <div class="flex items-center justify-between mb-2">
-                    <span class="font-medium text-white">Design System</span>
-                    <span class="px-2 py-1 text-xs  text-white border-[#02098c] border bg-gradient-to-br from-black via-[#02098c] to-black rounded-full">Review</span>
-                </div>
-                <p class="text-sm text-gray-400">Update component library documentation</p>
+                <form action="{{ route('Task.store') }}" method="POST">
+                    @csrf
+                    <div class="mb-4">
+                        <label for="name" class="block text-sm font-medium text-[#446fcc] mb-1">Task Name</label>
+                        <input type="text" name="name" id="name" class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]" placeholder="Enter task name" required value="{{ old('name') }}">
+                        @error('name')
+                            <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                        @enderror
+                    </div>
+                    <div class="mb-4">
+                        <input type="text" name="team_id" id="team_id" class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]"   value={{ $team->id }}>
+                       
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="description" class="block text-sm font-medium text-[#446fcc] mb-1">Description</label>
+                        <textarea name="description" id="description" rows="4" class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]" placeholder="Enter task description">{{ old('description') }}</textarea>
+                        @error('description')
+                            <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                        @enderror
+                    </div>
+
+                    <div class="mb-4 grid grid-cols-1 sm:grid-cols-2 gap-4">
+                        <div>
+                            <label for="start" class="block text-sm font-medium text-gray-400 mb-1">Date Start</label>
+                            <input type="datetime-local" id="start" name="start" min="{{ date('Y-m-d\TH:i') }}" class="w-full px-4 py-3 border border-gray-600 bg-gray-900 text-gray-200 rounded-md shadow-sm focus:ring-blue-400 focus:border-blue-400" required>
+                            @error('start')
+                                <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                            @enderror
+                        </div>
+
+                        <div>
+                            <label for="end" class="block text-sm font-medium text-gray-400 mb-1">Date End</label>
+                            <input type="datetime-local" id="end" name="end" min="{{ date('Y-m-d\TH:i') }}" class="w-full px-4 py-3 border border-gray-600 bg-gray-900 text-gray-200 rounded-md shadow-sm focus:ring-blue-400 focus:border-blue-400" required>
+                            @error('end')
+                                <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                            @enderror
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="priority" class="block text-sm font-medium text-[#446fcc] mb-1">Priority</label>
+                        <select name="priority" id="priority" class="w-full px-4 py-3 border border-[#446fcc] rounded-md shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc]">
+                            <option value="High" {{ old('priority') == 'High' ? 'selected' : '' }}>High</option>
+                            <option value="Medium" {{ old('priority') == 'Medium' ? 'selected' : '' }}>Medium</option>
+                            <option value="Low" {{ old('priority') == 'Low' ? 'selected' : '' }}>Low</option>
+                        </select>
+                        @error('priority')
+                            <p class="text-red-500 text-sm mt-1">{{ $message }}</p>
+                        @enderror
+                    </div>
+
+                    <div class="flex justify-end space-x-4 mt-6">
+                        <input type="hidden" name="team_id" value="{{ $team->id }}">
+                        <button type="button" onclick="toggleModal('modaltask{{ $team->id }}', false)" class="text-gray-900 bg-gray-200 hover:bg-gray-300 px-5 py-2 rounded-lg shadow transition">
+                            Cancel
+                        </button>
+                        <button type="submit" class="px-5 py-2 bg-[#446fcc] text-white font-bold rounded-lg shadow hover:bg-[#617deb] transition">
+                            Create Task
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+        
+        {{-- Invite Modal --}}
+        <div id="modaleinvite{{ $team->id }}" class="fixed hidden z-50 inset-0 bg-gray-900 bg-opacity-60 flex justify-center items-center">
+            <div class="bg-white rounded-lg shadow-lg w-full max-w-md p-6 relative">
+                <button onclick="closeModal('modaleinvite{{ $team->id }}')" type="button" class="absolute top-3 right-3 text-gray-400 hover:bg-red-200 hover:text-red-600 rounded-full p-2">
+                    <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path>
+                    </svg>
+                </button>
+
+                <h2 class="text-xl font-semibold text-[#446fcc] text-center mb-6">Invite Members</h2>
+
+                <form action="" method="post" class="space-y-5">
+                    @csrf
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                        <div class="relative mt-1">
+                            <input id="email" name="email" type="email" required class="block w-full px-4 py-2 border rounded-lg shadow-sm focus:ring-[#446fcc] focus:border-[#446fcc] placeholder-gray-400" placeholder="Enter member's email">
+                        </div>
+                    </div>
+
+                    <div class="flex justify-end gap-4 mt-6">
+                        <button type="button" onclick="closeModal('modaleinvite{{ $team->id }}')" class="px-4 py-2 bg-gray-200 text-gray-700 rounded-md hover:bg-gray-300 transition">
+                            Cancel
+                        </button>
+                        <button type="submit" class="px-4 py-2 bg-[#446fcc] text-white rounded-md hover:bg-[#3658a7] transition">
+                            Send Invite
+                        </button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-           
-            
-        </div>
     @endforeach
-    
-
 </section>
+
 
 
 

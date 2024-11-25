@@ -2,6 +2,8 @@
 
 namespace App\Mail;
 
+use App\Models\Team;
+use App\Models\User;
 use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
@@ -19,6 +21,25 @@ class Invitation extends Mailable
     public function __construct()
     {
         //
+    }
+
+    
+
+
+    //
+    protected $fillable = [
+     'team_id',
+     'email',
+     'status',
+     'invited_by'
+    ];
+
+    public function team(){
+        return $this->belongsTo(Team::class , 'team_id');
+    }
+
+    public function owner(){
+        return $this->belongsTo(User::class , 'invited_by');
     }
 
     /**

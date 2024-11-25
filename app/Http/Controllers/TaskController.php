@@ -42,7 +42,7 @@ class TaskController extends Controller
      {
          $task->delete();
          return 
-         redirect()->route('Task')->with('success', 'Task deleted successfully.');
+         redirect()->route('Task')->with('error', 'Task deleted successfully.');
      }
  
      // Share task
@@ -71,12 +71,12 @@ class TaskController extends Controller
             'name' => $request->name,
             'start' => $request->start,
             'end' => $request->end,
-            // 'priority' => $request->priority, // Ensure priority is set
+            'team_id' => $request->team_id, // Ensure priority is set
             'created_at' => now(),
             'updated_at' => now(),
         ]);
        
-        return redirect()->route('Task')->with('success', 'Task created successfully!');
+        return back()->with('success', 'Task created successfully!');
     }
 
     /**

@@ -374,7 +374,7 @@
 
 
 <div class="container  flex flex-row ">
-    <div class="grid grid-row pt-6  gap-6">
+    <div class="flex flex-wrap pt-6   gap-6">
       @if (isset($tasks) && $tasks->count())
         @foreach ($tasks as $task)
           <!-- Task Card -->
@@ -383,7 +383,7 @@
             <div class="flex items-start justify-between  mb-6">
               <div>
                 <div class="flex items-center gap-2 mb-2">
-                  <span class="px-3 py-1 text-xs font-medium text-emerald-400 bg-emerald-400/10 rounded-full border border-emerald-400/20">
+                  <span class="px-3 py-2 text-xs font-medium text-white border-[#020cb9] bg-black rounded-full border ">
                     {{ $task->name }}
                   </span>
                 </div>
@@ -397,6 +397,16 @@
                 </button>
                 <div class="hidden group-hover:block absolute right-0 mt-2 w-48 bg-slate-800 rounded-xl border border-white/10 shadow-xl z-10">
                   <div class="py-1">
+
+
+                    <form action="{{ route('Task.destroy', $task->id) }}" method="POST" class="inline-block">
+                        @csrf
+                        @method('DELETE')
+                        <button type="submit" class="text-red-600 px-4 w-full py-2 rounded-md hover:bg-white/10 ">
+                          Delete
+                        </button> 
+                      </form>
+
                     <button class="w-full px-4 py-2 text-sm text-gray-300 hover:bg-white/10 flex items-center gap-2">
                       Edit
                     </button>
@@ -404,20 +414,14 @@
                                class="w-full px-4 py-2 text-sm text-gray-300 hover:bg-white/10 flex items-center gap-2">
                     <a href="{{ route('Team', $task->id) }}">  Share </a>
                     </button>
-                    <form action="{{ route('Task.destroy', $task->id) }}" method="POST" class="inline-block">
-                        @csrf
-                        @method('DELETE')
-                        <button type="submit" class="text-red-600 px-4 py-2 rounded-md " onclick="return confirm('Are you sure you want to delete this task?')">
-                          Delete
-                        </button>
-                      </form>
+                   
                   </div>
                 </div>
               </div>
             </div>
  
             <!-- Task Description -->
-            <p class="text-gray-300 mb-6">
+            <p class="text-red-500  h-6 mb-3">
               {{ $task->description }}
             </p>
   
@@ -605,6 +609,51 @@
             }
             });
             </script> 
+            </div>
+            <div>
+                {{-- script for the flash messages --}}
+                <script>
+                    document.addEventListener('DOMContentLoaded', () => {
+                        const flashMessage = document.getElementById('flashMessage');
+        
+                        if (flashMessage) {
+                            setTimeout(() => {
+                                flashMessage.style.right = '20px';
+                            }, 100); 
+        
+                            setTimeout(() => {
+                                flashMessage.style.right = '-300px';
+                            }, 3000); 
+        
+                            setTimeout(() => {
+                                flashMessage.remove();
+                            }, 3500);
+                        }
+                    });
+                </script>
+        
+        
+                @if(session('success'))
+                    <div  id="flashMessage" class="fixed flex items-center gap-2 right-[-300px] top-5 flash-message bg-[#6dc489] text-white px-4 py-4 rounded-md mb-4 shadow-lg transition-all duration-300">
+                        <i class="fa-solid fa-thumbs-up text-[15px]"></i>
+                        {{ session('success') }}
+                    </div>
+                @endif
+        
+                @if(session('error'))
+                    <div  id="flashMessage" class="fixed flex items-center gap-2 right-[-300px] top-5 flash-message bg-red-500 text-white px-4 py-4 rounded-md mb-4 shadow-lg transition-all duration-300">
+                        <i class="fa-solid fa-thumbs-up text-[15px]"></i>
+                        {{ session('error') }}
+                    </div>
+                @endif
+        
+                @if(session('info'))
+                    <div  id="flashMessage" class="fixed flex items-center gap-2 right-[-300px] top-5 flash-message bg-[#6737f5] text-white px-4 py-4 rounded-md mb-4 shadow-lg transition-all duration-300">
+                        <i class="fa-solid fa-thumbs-up text-[15px]"></i>
+                        {{ session('info') }}
+                    </div>
+                @endif
+        
             </div>
        
 </body>

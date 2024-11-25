@@ -252,7 +252,8 @@
                   <!-- Content -->
                   <div class="flex flex-col items-center justify-center h-full text-white font-bold text-center leading-[35px] text-2xl transition-transform duration-500 ease-in-out hover:translate-y-[-20px]">
                     <div class="hidden opacity-0 transition-opacity duration-300 ease-in hover:opacity-100">Hover Content</div>
-                    <span>Hello</span>
+                    <span class="flex flex-col items-center justify-center">Hello </span>
+                    <span>To Weflow</span>
                   </div>
                 </div>
               </div>

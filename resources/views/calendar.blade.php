@@ -150,7 +150,7 @@
                             </form>
                         </div>
                 
-                        <div class="h-[35vw] bg-white rounded-2xl border-none p-3" id="calendar"></div>
+                        <div class="h-[35vw]  rounded-2xl border-none p-3" id="calendar"></div>
                 
                 
                         <script>
@@ -175,9 +175,9 @@
                                 var calendar = new FullCalendar.Calendar(myCalendar, {
                 
                                     headerToolbar: {
-                                        left: 'prev,next,dayGridMonth,timeGridWeek,timeGridDay',
+                                        left: '',
                                         center: 'title',
-                                        right: 'listMonth,listWeek,listDay'
+                                        right: ''
                                     },
                 
                 

@@ -25,7 +25,8 @@ return new class extends Migration
             // $table->timestamps(); 
             $table->id();
             $table->string('name')->nullable();
-            $table->text('description')->nullable();
+            $table->foreignId('team_id')->nullable();
+            $table->string('description')->nullable();
             $table->timestamp('start');
             $table->timestamp('end');
             // $table->string('priority')->nullable()->change();
