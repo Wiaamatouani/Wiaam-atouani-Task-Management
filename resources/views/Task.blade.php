@@ -55,7 +55,7 @@
                 </li>
                
 
-                <li class="  mt-70">
+                <li class="   mt-[34vh]">
                     <a href="#" class="hidden   sm:flex sm:items-center sm:ms-6 flex-row items-center  ml-4   transform hover:translate-x-2 transition-transform ease-in duration-200 text-gray-300 hover:text-white">
                          
                            <x-dropdown align="right" width="">
@@ -63,7 +63,7 @@
                                 <button class="inline-flex items-center   border border-transparent text-sm  font-medium rounded-md text-white dark:text-gray-400 dark:bg-gray-800 hover:text-gray-700 dark:hover:text-gray-300 focus:outline-none transition ease-in-out duration-150">
      
                                     <div class="">
-                                     <svg class="w-6 h-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="12" cy="12" r="3" stroke="#ffffff" stroke-width="1.5"></circle> <path d="M3.66122 10.6392C4.13377 10.9361 4.43782 11.4419 4.43782 11.9999C4.43781 12.558 4.13376 13.0638 3.66122 13.3607C3.33966 13.5627 3.13248 13.7242 2.98508 13.9163C2.66217 14.3372 2.51966 14.869 2.5889 15.3949C2.64082 15.7893 2.87379 16.1928 3.33973 16.9999C3.80568 17.8069 4.03865 18.2104 4.35426 18.4526C4.77508 18.7755 5.30694 18.918 5.83284 18.8488C6.07287 18.8172 6.31628 18.7185 6.65196 18.5411C7.14544 18.2803 7.73558 18.2699 8.21895 18.549C8.70227 18.8281 8.98827 19.3443 9.00912 19.902C9.02332 20.2815 9.05958 20.5417 9.15224 20.7654C9.35523 21.2554 9.74458 21.6448 10.2346 21.8478C10.6022 22 11.0681 22 12 22C12.9319 22 13.3978 22 13.7654 21.8478C14.2554 21.6448 14.6448 21.2554 14.8478 20.7654C14.9404 20.5417 14.9767 20.2815 14.9909 19.9021C15.0117 19.3443 15.2977 18.8281 15.7811 18.549C16.2644 18.27 16.8545 18.2804 17.3479 18.5412C17.6837 18.7186 17.9271 18.8173 18.1671 18.8489C18.693 18.9182 19.2249 18.7756 19.6457 18.4527C19.9613 18.2106 20.1943 17.807 20.6603 17C20.8677 16.6407 21.029 16.3614 21.1486 16.1272M20.3387 13.3608C19.8662 13.0639 19.5622 12.5581 19.5621 12.0001C19.5621 11.442 19.8662 10.9361 20.3387 10.6392C20.6603 10.4372 20.8674 10.2757 21.0148 10.0836C21.3377 9.66278 21.4802 9.13092 21.411 8.60502C21.3591 8.2106 21.1261 7.80708 20.6601 7.00005C20.1942 6.19301 19.9612 5.7895 19.6456 5.54732C19.2248 5.22441 18.6929 5.0819 18.167 5.15113C17.927 5.18274 17.6836 5.2814 17.3479 5.45883C16.8544 5.71964 16.2643 5.73004 15.781 5.45096C15.2977 5.1719 15.0117 4.6557 14.9909 4.09803C14.9767 3.71852 14.9404 3.45835 14.8478 3.23463C14.6448 2.74458 14.2554 2.35523 13.7654 2.15224C13.3978 2 12.9319 2 12 2C11.0681 2 10.6022 2 10.2346 2.15224C9.74458 2.35523 9.35523 2.74458 9.15224 3.23463C9.05958 3.45833 9.02332 3.71848 9.00912 4.09794C8.98826 4.65566 8.70225 5.17191 8.21891 5.45096C7.73557 5.73002 7.14548 5.71959 6.65205 5.4588C6.31633 5.28136 6.0729 5.18269 5.83285 5.15108C5.30695 5.08185 4.77509 5.22436 4.35427 5.54727C4.03866 5.78945 3.80569 6.19297 3.33974 7C3.13231 7.35929 2.97105 7.63859 2.85138 7.87273" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
+                                        <svg class="w-6 h-6 " viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M14 20H6C4.89543 20 4 19.1046 4 18L4 6C4 4.89543 4.89543 4 6 4H14M10 12H21M21 12L18 15M21 12L18 9" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
                                     </div>
                                  
 
@@ -231,7 +231,7 @@
     <div class=" ">
         <!-- Button to open the modal -->
         <button
-            class="border-2 border-[#02098c]  bg-gradient-to-br from-[#010004] via-[#02098c] to-[#010004]   font-bold   text-white px-3 py-2 rounded-md text-sm hover:bg-gray-600 transition"
+            class="border-2 border-[#02098c]    font-bold   text-white px-3 py-2 rounded-2xl text-sm hover:bg-gray-600 transition"
             onclick="document.getElementById('taskModal').classList.remove('hidden')">
             + Create a Task
         </button>
@@ -322,84 +322,57 @@
 
 
 
-
-
-
-
-
-
-
-    
-  
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <div class="container  flex flex-row ">
     <div class="flex flex-wrap pt-6   gap-6">
       @if (isset($tasks) && $tasks->count())
         @foreach ($tasks as $task)
           <!-- Task Card -->
-          <div class="bg-[#02098c]/30 border hover:bg-[#02098c] border-white p-6 rounded-lg shadow-lg text-gray-100 flex flex-col justify-between">
+          <div class=" border   border-[#02098c] w-[20vw] pt-8 items-center rounded-lg shadow-lg text-gray-100 flex flex-col justify-between">
             <!-- Task Title and Dropdown -->
-            <div class="flex items-start justify-between  mb-6">
-              <div>
-                <div class="flex items-center gap-2 mb-2">
-                  <span class="px-3 py-2 text-xs font-medium text-white border-[#020cb9] bg-black rounded-full border ">
-                    {{ $task->name }}
-                  </span>
+
+
+
+
+
+
+            <div class="flex items-center justify-between  gap-[6vw]  mb-2">
+                <span class="px-3 py-3 text-xs font-medium text-white  border-[#020cb9] bg-gradient-to-br from-[#040004] via-[#020cb9] to-[#010004] rounded-full border ">
+                  {{ $task->name }}
+                </span>
+                <div class="flex flex-row gap-2 p-1  items-center justify-center ">
+                  
+                  <form action="{{ route('Task.destroy', $task->id) }}" method="POST" class="inline-block">
+                      @csrf
+                      @method('DELETE')
+
+                      <svg class="w-6" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M21.2799 6.40005L11.7399 15.94C10.7899 16.89 7.96987 17.33 7.33987 16.7C6.70987 16.07 7.13987 13.25 8.08987 12.3L17.6399 2.75002C17.8754 2.49308 18.1605 2.28654 18.4781 2.14284C18.7956 1.99914 19.139 1.92124 19.4875 1.9139C19.8359 1.90657 20.1823 1.96991 20.5056 2.10012C20.8289 2.23033 21.1225 2.42473 21.3686 2.67153C21.6147 2.91833 21.8083 3.21243 21.9376 3.53609C22.0669 3.85976 22.1294 4.20626 22.1211 4.55471C22.1128 4.90316 22.0339 5.24635 21.8894 5.5635C21.7448 5.88065 21.5375 6.16524 21.2799 6.40005V6.40005Z" stroke="#ffffff" stroke-width="0.8879999999999999" stroke-linecap="round" stroke-linejoin="round"></path> <path d="M11 4H6C4.93913 4 3.92178 4.42142 3.17163 5.17157C2.42149 5.92172 2 6.93913 2 8V18C2 19.0609 2.42149 20.0783 3.17163 20.8284C3.92178 21.5786 4.93913 22 6 22H17C19.21 22 20 20.2 20 18V13" stroke="#ffffff" stroke-width="0.8879999999999999" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                   
+                     
+                    </form>
+                    <form action="{{ route('Team', $task->id) }}" method="POST" class="inline-block">
+                     
+
+                      <svg class="w-5" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff" stroke-width="0.00024000000000000003"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M19.6495 0.799565C18.4834 -0.72981 16.0093 0.081426 16.0093 1.99313V3.91272C12.2371 3.86807 9.65665 5.16473 7.9378 6.97554C6.10034 8.9113 5.34458 11.3314 5.02788 12.9862C4.86954 13.8135 5.41223 14.4138 5.98257 14.6211C6.52743 14.8191 7.25549 14.7343 7.74136 14.1789C9.12036 12.6027 11.7995 10.4028 16.0093 10.5464V13.0069C16.0093 14.9186 18.4834 15.7298 19.6495 14.2004L23.3933 9.29034C24.2022 8.2294 24.2022 6.7706 23.3933 5.70966L19.6495 0.799565ZM7.48201 11.6095C9.28721 10.0341 11.8785 8.55568 16.0093 8.55568H17.0207C17.5792 8.55568 18.0319 9.00103 18.0319 9.55037L18.0317 13.0069L21.7754 8.09678C22.0451 7.74313 22.0451 7.25687 21.7754 6.90322L18.0317 1.99313V4.90738C18.0317 5.4567 17.579 5.90201 17.0205 5.90201H16.0093C11.4593 5.90201 9.41596 8.33314 9.41596 8.33314C8.47524 9.32418 7.86984 10.502 7.48201 11.6095Z" fill="#ffffff"></path> <path d="M7 1.00391H4C2.34315 1.00391 1 2.34705 1 4.00391V20.0039C1 21.6608 2.34315 23.0039 4 23.0039H20C21.6569 23.0039 23 21.6608 23 20.0039V17.0039C23 16.4516 22.5523 16.0039 22 16.0039C21.4477 16.0039 21 16.4516 21 17.0039V20.0039C21 20.5562 20.5523 21.0039 20 21.0039H4C3.44772 21.0039 3 20.5562 3 20.0039V4.00391C3 3.45162 3.44772 3.00391 4 3.00391H7C7.55228 3.00391 8 2.55619 8 2.00391C8 1.45162 7.55228 1.00391 7 1.00391Z" fill="#ffffff"></path> </g></svg>
+                     
+                    </form>
+                 
+                  <form action="{{ route('Task.destroy', $task->id) }}" method="POST" class="inline-block">
+                      @csrf
+                      @method('DELETE')
+<button class="mt-1">
+                          <svg class="w-7   hover:text-black" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#ffffff"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M4 6H20M16 6L15.7294 5.18807C15.4671 4.40125 15.3359 4.00784 15.0927 3.71698C14.8779 3.46013 14.6021 3.26132 14.2905 3.13878C13.9376 3 13.523 3 12.6936 3H11.3064C10.477 3 10.0624 3 9.70951 3.13878C9.39792 3.26132 9.12208 3.46013 8.90729 3.71698C8.66405 4.00784 8.53292 4.40125 8.27064 5.18807L8 6M18 6V16.2C18 17.8802 18 18.7202 17.673 19.362C17.3854 19.9265 16.9265 20.3854 16.362 20.673C15.7202 21 14.8802 21 13.2 21H10.8C9.11984 21 8.27976 21 7.63803 20.673C7.07354 20.3854 6.6146 19.9265 6.32698 19.362C6 18.7202 6 17.8802 6 16.2V6M14 10V17M10 10V17" stroke="#fffafa" stroke-width="0.8160000000000001" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+                     
+                        </button>
+                    </form>
+
                 </div>
-                <h3 class="text-xl font-bold text-white">Website Redesign Project</h3>
               </div>
-              <div class="relative group">
-                <button class="p-2 hover:bg-white/10 rounded-lg transition-colors">
-                  <svg class="w-5 h-5 text-gray-300" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                    <path d="M10 6a2 2 0 110-4 2 2 0 010 4zm0 4a2 2 0 110-4 2 2 0 010 4zm0 4a2 2 0 110-4 2 2 0 010 4z"></path>
-                  </svg>
-                </button>
-                <div class="hidden group-hover:block absolute right-0 mt-2 w-48 bg-slate-800 rounded-xl border border-white/10 shadow-xl z-10">
-                  <div class="py-1">
 
+            <div class="flex items-start justify-between   mb-6">
+              
+               
 
-                    <form action="{{ route('Task.destroy', $task->id) }}" method="POST" class="inline-block">
+                    {{-- <form action="{{ route('Task.destroy', $task->id) }}" method="POST" class="inline-block">
                         @csrf
                         @method('DELETE')
                         <button type="submit" class="text-red-600 px-4 w-full py-2 rounded-md hover:bg-white/10 ">
@@ -414,32 +387,27 @@
                                class="w-full px-4 py-2 text-sm text-gray-300 hover:bg-white/10 flex items-center gap-2">
                     <a href="{{ route('Team', $task->id) }}">  Share </a>
                     </button>
-                   
-                  </div>
-                </div>
-              </div>
+                    --}}
+                 
+             
             </div>
- 
+            <h1 class="text-xl  font-base text-white"> {{ $task->title }} </h1>
             <!-- Task Description -->
             <p class="text-red-500  h-6 mb-3">
               {{ $task->description }}
             </p>
   
             <!-- Dates -->
-            <div class="space-y-3 mb-6">
+            <div class=" -ml-24  mb-6">
               <div class="flex items-center gap-3 text-gray-300">
-                <svg class="w-5 h-5 text-blue-400" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                  <path d="M6 2a2 2 0 00-2 2v2h12V4a2 2 0 00-2-2H6zM4 8h12v10a2 2 0 01-2 2H6a2 2 0 01-2-2V8z"></path>
-                </svg>
-                <div>
+                
+                <div class="text-[12px]">
                   <strong>Start Date:</strong> {{ \Carbon\Carbon::parse($task->start)->format('M d, Y H:i') }}
                 </div>
               </div>
               <div class="flex items-center gap-3 text-gray-300">
-                <svg class="w-5 h-5 text-purple-400" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
-                  <path d="M10 2a8 8 0 100 16 8 8 0 000-16zm0 4a1 1 0 110 2 1 1 0 010-2zm1 6h-2v-3a1 1 0 112 0v3z"></path>
-                </svg>
-                <div>
+                
+                <div class="text-[12px]">
                   <strong>End Date:</strong> {{ \Carbon\Carbon::parse($task->end)->format('M d, Y H:i') }}
                 </div>
               </div>

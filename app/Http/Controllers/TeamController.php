@@ -23,7 +23,9 @@ class TeamController extends Controller
     $teams = Team::all();
 
     // Add tasks to each team
-
+    foreach ($teams as $team) {
+        $team->tasks = Task::where('team_id', $team->id)->get();
+    }
 
     // Pass the updated teams with their tasks to the view
     return view('Team', compact('teams'));

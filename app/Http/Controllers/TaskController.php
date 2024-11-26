@@ -69,6 +69,7 @@ class TaskController extends Controller
 
         Task::create([
             'name' => $request->name,
+           
             'start' => $request->start,
             'end' => $request->end,
             'team_id' => $request->team_id, // Ensure priority is set

@@ -25,13 +25,13 @@
                     </div>
                     <div class="hidden md:flex md:items-center md:justify-center md:gap-5">
                         <a class="inline-block rounded-lg px-2 py-1 text-sm font-medium text-[#fefeff] transition-all duration-200 hover:bg-gray-100 hover:text-gray-900" href="#features">Features</a>
-                        <a class="inline-block rounded-lg px-2 py-1 text-sm font-medium text-[#fefeff] transition-all duration-200 hover:bg-gray-100 hover:text-gray-900" href="#about">Review</a>
+                        <a class="inline-block rounded-lg px-2 py-1 text-sm font-medium text-[#fefeff] transition-all duration-200 hover:bg-gray-100 hover:text-gray-900" href="#about">About</a>
                         <a class="inline-block rounded-lg px-2 py-1 text-sm font-medium text-[#fefeff] transition-all duration-200 hover:bg-gray-100 hover:text-gray-900" href="#pricing">Pricing</a>
-                        <a class="inline-block rounded-lg px-2 py-1 text-sm font-medium text-[#fefeff] transition-all duration-200 hover:bg-gray-100 hover:text-gray-900" href="#contact">Contact</a>
+                  
                     </div>
                     <div class="flex items-center justify-end gap-3">
                         <a href="{{ route('login') }}" class="hidden rounded-full items-center justify-center px-3 py-2 text-sm font-semibold text-white shadow-sm transition-all duration-150 sm:inline-flex">Sign in</a>
-                        <a href="{{ route('register') }}" class="inline-flex bg-gradient-to-br from-[#040004] via-[#020cb9] to-[#010004]  border-[#020cb9] border-2 items-center justify-center rounded-full px-3 py-2 text-sm font-semibold text-white shadow-sm transition-all duration-150">Sign up</a>
+                        <a href="{{ route('register') }}" class="inline-flex bg-gradient-to-br from-[#040004] via-[#020cb9] to-[#010004]  border-[#191919] border-2 items-center justify-center rounded-full px-3 py-2 text-sm font-semibold text-white shadow-sm transition-all duration-150">Sign up</a>
                     </div>
                 </div>
             </div>
@@ -42,23 +42,23 @@
        
         <section class="pt-20 pb-10 justify-center items-center flex text-white text-center">
             <div class="flex  bg-[url('https://www.systecx.com/images/blackrip-commitment.png')] bg-no-repeat flex-col  items-center justify-center  pr-72  pl-72 p-20">
-                <h1 class="text-7xl mr-50 font-bold leading-tight">
+                <h1 class="text-7xl mr-50 font-thin leading-tight">
                             
-                    <span class="gradient-text">Organize</span> prioritize  
+                    <span class=" font-thin gradient-text">Organize</span> prioritize  
                   </h1>
-                  <h1 class="text-7xl font-bold leading-tight">
+                  <h1 class="text-7xl font-thin leading-tight">
                             
-                    <span class="gradient-text">and</span> collaborate your Task 
+                    <span class="gradient-text font-thin">and</span> collaborate your Task 
                   </h1>
                     <div class="flex  relative z-30 p-5 text-2xl justify-center bg-opacity-50 gap-10 flex-row justify-items-center">
-                        <div class=" text-7xl font-bold leading-tight">With WEFLOW</div>
+                        <div class=" text-7xl font-thin leading-tight">With WEFLOW</div>
                         <div class="flex  mt-6  mb-2 space-x-4">
                           
                             
-                            <a href="{{ route('register') }}" class="  flex justify-center gap-2 items-center mx-auto shadow-xl text-lg  backdrop-blur-md lg:font-semibold isolation-auto  before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-black     bg-gradient-to-br from-[#040004] via-[#020cb9] to-[#010004]  hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10  py-2 overflow-hidden border-[#020cb9]  group  g border-2  px-9 -[#010004] rounded-full text-white ring-1 ring-transparent transition  focus:outline-none">
+                            <a href="{{ route('register') }}" class="  flex justify-center gap-2 items-center mx-auto shadow-xl text-lg  backdrop-blur-md lg:font-semibold isolation-auto  before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-black     bg-gradient-to-br from-[#040004] via-[#020cb9] to-[#010004]  hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10  py-2 overflow-hidden border-[#191919]  group  g border-2  px-9 -[#010004] rounded-full text-white ring-1 ring-transparent transition  focus:outline-none">
                                 Get started
                                 <svg
-                                  class="w-8 h-8 group-hover:rotate-90 group-hover:bg-black text-gray-50 ease-linear duration-300 rounded-full border border-gray-700 group-hover:border-none p-2 rotate-45"
+                                  class="w-8 h-8 group-hover:rotate-90 group-hover:bg-black text-white ease-linear duration-300 rounded-full border border-gray-700 group-hover:border-none p-2 rotate-45"
                                   viewBox="0 0 16 19"
                                   xmlns="http://www.w3.org/2000/svg"
                                 >
@@ -72,7 +72,7 @@
                         </div>
                     </div>
                     <div class="flex items-cnter justify-center"><p class="text-gray-400 text-sm mt-4 max-w-lg">
-                        Machine learning, language processing,  and other subfields and  methods are all included in  artificial intelligence.
+                      "Effortlessly organize, prioritize, and collaborate on tasks with WEFLOW—a platform designed to streamline productivity and teamwork, helping you stay on top of your goals".
                       </p></div>
                      
             
@@ -84,13 +84,13 @@
             <div class=" flex flex-col justify-between  md:flex-row items-center space-y-8 md:space-y-0 md:space-x-12">
               <!-- Text Section -->
               <div class="text-center   p-12 md:text-left">
-                <h1 class="text-3xl md:text-4xl font-bold leading-snug">
-                  Everything interactivity and  motion.<br> Choose the ideal  block from our <br> library  of pre-made designs
-                <span class="text-white/65">  rather <br> than starting from scratch and <br> watch the magic happen.</span>
+                <h1 class="text-3xl font-thin md:text-4xl  leading-snug">
+                  Bring your tasks to life with interactive<br> motion and seamless design. Explore our  <br> library  of pre-built templates,
+                <span class="text-white/65 font-thin"> customize  <br> effortlessly, and see your productivity <br> soar—right at your fingertips..</span>
                 
                 
                 </h1>
-                <div class="flex   mt-6 mb-2 space-x-4">
+                <div class="flex -ml-[30vw]  mt-6 mb-2 space-x-4">
                     <a href="{{ route('register') }}" class="  flex justify-center gap-2 items-center mx-auto shadow-xl text-lg  backdrop-blur-md lg:font-semibold isolation-auto  before:absolute before:w-full before:transition-all before:duration-700 before:hover:w-full before:-left-full before:hover:left-0 before:rounded-full before:bg-black     bg-gradient-to-br from-[#040004] via-[#020cb9] to-[#010004]  hover:text-gray-50 before:-z-10 before:aspect-square before:hover:scale-150 before:hover:duration-700 relative z-10  py-2 overflow-hidden border-[#020cb9]  group  g border-2  px-9 -[#010004] rounded-full text-white ring-1 ring-transparent transition  focus:outline-none">
                         Get started
                     </a>
@@ -234,7 +234,7 @@
               </div> --}}
               <div class="relative w-[210px] h-[400px] bg-black rounded-[35px] border-2 border-gray-800 p-[7px] shadow-[2px_5px_15px_rgba(0,0,0,0.486)]">
                 <!-- Inner Gradient Card -->
-                <div class="h-full bg-gradient-to-br from-[#020cb9] via-white to-black bg-[length:200%_200%] bg-left-top rounded-[25px] transition-all duration-[600ms] ease-out overflow-hidden hover:bg-right-bottom">
+                <div class="h-full bg-gradient-to-br from-black via-white to-black bg-[length:200%_200%] bg-left-top rounded-[25px] transition-all duration-[600ms] ease-out overflow-hidden hover:bg-right-bottom">
                   <!-- Top -->
                   <div class="absolute top-0 right-1/2 translate-x-1/2 w-[35%] h-[18px] bg-black rounded-b-[10px]"></div>
                   <!-- Speaker -->
@@ -250,11 +250,41 @@
                   <div class="absolute top-[36%] left-[-4px] h-[30px] w-[2px] bg-gradient-to-r from-gray-900 via-gray-800 to-gray-600 scale-x-[-1]"></div>
               
                   <!-- Content -->
-                  <div class="flex flex-col items-center justify-center h-full text-white font-bold text-center leading-[35px] text-2xl transition-transform duration-500 ease-in-out hover:translate-y-[-20px]">
-                    <div class="hidden opacity-0 transition-opacity duration-300 ease-in hover:opacity-100">Hover Content</div>
-                    <span class="flex flex-col items-center justify-center">Hello </span>
-                    <span>To Weflow</span>
+                  <div class="flex  flex-col items-center justify-center h-full   text-white font-bold text-center leading-[35px] text-2xl transition-transform duration-500 ease-in-out hover:translate-y-[-10px]">
+                    
+                    {{-- <div class="hidden opacity-0 transition-opacity duration-300  ease-in hover:opacity-100"></div> --}}
+                    
+                    
+                    <div class="absolute top-10 left-[77px] pt-4  text-white font-thin text-2xl" id="date">17:51</div>
+                    <div class="absolute top-20 left-2 right-2 p-2 pt-10  ">
+                      
+                      <div className='flex flex-row bg-white items-center justify-center '>
+                        <h3 class="text-white text-sm font-thin -ml-16 ">Notification Center 
+                          </h3>
+                        
+                      </div>
+                      <div class="flex pt-3 ml-1 flex-col gap-2 w-60 sm:w-60 text-white  font-thin sm:text-xs z-50">
+                        <div
+                          class=" flex  justify-between w-[11vw] h-[10vh] -m-1  rounded-xl bg-black/35   px-[10px]" >
+                          <div class=" gap-2">
+                            <p class="text-white -ml-24 font-2xl  pt-2  pb-2">Weflow! </p>
+                            <div className='flex flex-col gap-1 pt-1'>
+                    
+                              <p className='text-black items-start  text-sm  font-thin' >
+                                 Keep it going you'are done your Task for today 👋
+                              </p>
+      
+      
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      
+                    </div>
+                    
+                   <img class="mt-44 transition-opacity duration-300  ease-in hover:opacity-100 " src="{{ asset('images/blackrip.png') }}" alt="">
                   </div>
+                 
                 </div>
               </div>
               
@@ -278,13 +308,13 @@
        
           <section id="features" class="py-20 flex items-center justify-center bg-black">
             <div class="container pt-16 mx-auto px-4">
-                <h2 class="text-4xl font-bold text-center text-white  ">Powerful Features for Seamless Collaboration</h2>
-                <p class="text-center font-light p-8 flex items-center justify-center text-white/70">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ex reprehenderit earum ipsum. Doloribus dolorum magnam sequi explicabo! Dolor, quia!</p>
+                <h2 class="text-4xl font-thin text-center text-white  ">Powerful Features for Seamless Collaboration</h2>
+                <p class="text-center font-light p-8 flex items-center justify-center text-white/70">Discover tools designed to keep your team connected and your tasks on track. From real-time collaboration to intuitive task management, WEFLOW empowers you to work smarter together.</p>
                 <div class="grid md:grid-cols-2 m-6 lg:grid-cols-4 gap-12">
                     <!-- Feature 1 -->
                     <div class="feature bg-white/5 border border-[#020cb9] rounded-lg p-6 text-center opacity-0 translate-y-10 transition-all duration-700 transform hover:scale-105 hover:shadow-lg hover:shadow-primary/20">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-primary mb-4 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path class="text-[#5843d0]" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
+                            <path class="text-[#020cae]" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-3 7h3m-3 4h3m-6-4h.01M9 16h.01" />
                         </svg>
                         <h3 class="text-xl font-bold mb-4">Task  Made Easy</h3>
                         <p class="text-gray-400 font-light">Create, update, and assign tasks effortlessly.</p>
@@ -292,7 +322,7 @@
                     <!-- Feature 2 -->
                     <div class="feature bg-white/5 border border-[#020cb9] rounded-lg p-6 text-center opacity-0 translate-y-10 transition-all duration-700 transform hover:scale-105 hover:shadow-lg hover:shadow-primary/20">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-primary mb-4 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path class="text-[#5843d0]" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+                            <path class="text-[#020cae]" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
                         </svg>
                         <h3 class="text-xl font-bold mb-4">Collaborate with Your Team</h3>
                         <p class="text-gray-400 font-light">Invite team members, manage tasks, and chat seamlessly.</p>
@@ -300,7 +330,7 @@
                     <!-- Feature 3 -->
                     <div class="feature bg-white/5 border border-[#020cb9] rounded-lg p-6 text-center opacity-0 translate-y-10 transition-all duration-700 transform hover:scale-105 hover:shadow-lg hover:shadow-primary/20">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-primary mb-4 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path class="text-[#5843d0]" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            <path class="text-[#020cae]" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
                         </svg>
                         <h3 class="text-xl font-bold mb-4">Stay on Top of Deadlines</h3>
                         <p class="text-gray-400 font-light">Automatic reminders for overdue tasks to keep things on track.</p>
@@ -308,8 +338,8 @@
                     <!-- Feature 4 -->
                     <div class="feature bg-white/5 border border-[#020cb9] rounded-lg p-6 text-center opacity-0 translate-y-10 transition-all duration-700 transform hover:scale-105 hover:shadow-lg hover:shadow-primary/20">
                         <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-primary mb-4 mx-auto" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                            <path class="text-[#5843d0]" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
-                            <path class="text-[#5843d0]" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path class="text-[#020cae]" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
+                            <path class="text-[#020cae]" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" />
                         </svg>
                         <h3 class="text-xl font-bold mb-4">Control at Your Fingertips</h3>
                         <p class="text-gray-400 font-light">Team owners can assign roles and manage users with ease.</p>
@@ -317,8 +347,8 @@
                 </div>
             </div>
         </section>
-        <h2 class="text-4xl font-bold text-center text-white  ">"Plan. Prioritize. Achieve"</h2>
-        <p class="text-center font-light p-8 flex items-center justify-center text-white/70">Your tasks, your way — organized and efficient for a stress-free workflow.</p>
+        <h2 class="text-4xl font-thin text-center text-white  ">"Plan. Prioritize. Achieve"</h2>
+        <p class="text-center font-light p-8 flex items-center justify-center  text-white/70">Your tasks, your way — organized and efficient for a stress-free workflow.</p>
         <section class="text-white   flex items-center justify-center">
             
             <div class="max-w-7xl border-2 rounded-3xl p-12 mx-auto bg-white border-[#020cb9] px-6 flex flex-col md:flex-row items-center justify-between space-y-12 md:space-y-0 md:gap-12">
@@ -392,7 +422,7 @@
               <!-- Content Section -->
               <div class="max-w-lg">
                 <h3 class="text-[#020cb9] text-lg font-semibold uppercase mb-2">WEflow</h3>
-                <h1 class="text-4xl text-black md:text-5xl font-extrabold leading-tight">
+                <h1 class="text-4xl text-black md:text-5xl font-bold leading-tight">
                   Conqure Your Task and Simplify Your <span class="text-[#020cb9]">Workflow</span>.
                 </h1>
                 <p class="text-gray-400 mt-4">
@@ -409,10 +439,13 @@
        
           <section id="pricing" class="py-20 bg-black">
             <div class="container mx-auto px-4">
-                <h2 class="text-4xl font-bold text-center mb-12 text-white">
-                    Choose Your <span class="text-primary">Plan</span>
+                <h2 class="text-4xl font-thin text-center  text-white">
+                    Choose Your <span class="text-primary">Plan</span> <br>
+                  <span class="text-[15px] text-white/70 font-thin">Get started now Take control of your tasks like never before!</span>
                 </h2>
-                <div class="grid md:grid-cols-3 gap-8 m-28">
+
+                <div class="grid md:grid-cols-3 gap-8 mb-28 ml-28 mr-28 mt-8">
+                
                     <!-- Basic Plan -->
                     <div class=" border-2 border-white   rounded-[25px] transition-all duration-[600ms] ease-out overflow-hidden hover:bg-right-bottom  p-8 text-center transform  hover:scale-105 hover:shadow-xl hover:shadow-primary/20">
                         <h3 class="text-2xl font-bold mb-4 text-white">Basic</h3>

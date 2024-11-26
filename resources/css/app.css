@@ -71,8 +71,8 @@
 
     /* Style the border of the current day for emphasis */
 .fc-day-today {
-    border: 2px solid #6737f5 !important; 
-    background-color: rgba(31, 41, 55, 0.521) !important;
+    border: 2px solid #0d15b1 !important; 
+    background-color: rgba(41, 63, 95, 0.521) !important;
 }
 
 /* Header cell borders (optional for styling day names like "Sun, Mon, etc.") */

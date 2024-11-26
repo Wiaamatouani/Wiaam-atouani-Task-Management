@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-
+use App\Mail\Invitation as MailInvitation;
 use App\Mail\TeamInvitation;
 use App\Models\Invitation;
 use App\Models\Team;
